@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>U.S. Medical Malpractice Premium Tracker · NAIC Data</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+  :root {
+    --bg: #f7f4ee; --panel: #fffdf6; --ink: #1a1a1a; --muted: #6b6b6b; --rule: #d8d3c7;
+    --accent: #2e75b6; --green: #4a7c59; --yellow: #d4a93b; --red: #b03a2e;
+    --series-pa: #b03a2e; --series-ny: #2e75b6; --series-fl: #d4a93b; --series-tx: #4a7c59;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--ink); font-family: 'Crimson Pro', Georgia, serif; min-height: 100vh; padding: 32px 24px 64px; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  .header { margin-bottom: 32px; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 8px; }
+  .subtitle { font-size: 16px; color: var(--muted); font-style: italic; max-width: 780px; }
+  .data-vintage { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 11px; background: var(--ink); color: var(--panel); padding: 4px 10px; border-radius: 2px; margin-top: 12px; letter-spacing: 0.06em; }
+  .grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 22px; margin-bottom: 24px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--rule); border-radius: 4px; padding: 20px; }
+  .panel h2 { font-size: 16px; font-weight: 700; margin-bottom: 10px; letter-spacing: -0.01em; display: flex; align-items: center; justify-content: space-between; }
+  .panel h2 .small { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 500; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+  .control-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-right: 6px; }
+  select, button { font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 6px 10px; border: 1px solid var(--rule); border-radius: 3px; background: var(--panel); color: var(--ink); cursor: pointer; }
+  select:hover, button:hover { border-color: var(--ink); }
+  button.active { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+
+  /* Map */
+  .map-wrap { position: relative; }
+  svg.usmap { display: block; width: 100%; height: auto; }
+  .state { stroke: var(--panel); stroke-width: 0.8; transition: filter 0.15s; cursor: pointer; }
+  .state:hover { filter: brightness(0.92); }
+  .state.selected { stroke: var(--ink); stroke-width: 2.2; }
+  .state-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: rgba(255,255,255,0.92); font-weight: 600; text-anchor: middle; pointer-events: none; }
+  .state-label.dark { fill: rgba(0,0,0,0.55); }
+  .tooltip { position: absolute; pointer-events: none; background: var(--ink); color: var(--panel); padding: 10px 12px; border-radius: 3px; font-size: 12px; line-height: 1.4; max-width: 280px; opacity: 0; transition: opacity 0.1s; box-shadow: 0 4px 18px -4px rgba(0,0,0,0.4); z-index: 10; }
+  .tooltip .name { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+  .tooltip .stat { font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+
+  /* Selected state details */
+  .detail-name { font-size: 24px; font-weight: 700; margin-bottom: 4px; }
+  .detail-rating { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 10px; padding: 3px 8px; border-radius: 2px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 14px; }
+  .detail-rating.green { background: var(--green); color: white; }
+  .detail-rating.yellow { background: var(--yellow); color: var(--ink); }
+  .detail-rating.red { background: var(--red); color: white; }
+
+  .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  .stat-card { padding: 10px 12px; background: var(--bg); border-radius: 3px; border-left: 3px solid var(--accent); }
+  .stat-card .stat-label { font-family: 'JetBrains Mono', monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px; }
+  .stat-card .stat-value { font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 700; }
+  .stat-card .stat-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* Score breakdown */
+  .components { margin: 16px 0; }
+  .component { display: flex; justify-content: space-between; padding: 6px 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; border-bottom: 1px solid var(--rule); }
+  .component:last-child { border-bottom: none; }
+  .component .lbl { color: var(--muted); }
+  .component .val { font-weight: 700; }
+  .total-score { display: flex; justify-content: space-between; padding: 10px 0; margin-top: 8px; border-top: 2px solid var(--ink); font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700; }
+
+  /* Trend chart */
+  .chart-panel { padding: 20px; background: var(--panel); border: 1px solid var(--rule); border-radius: 4px; margin-bottom: 24px; }
+  .chart-controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .chart-controls .preset { padding: 4px 10px; font-family: 'JetBrains Mono', monospace; font-size: 11px; border: 1px solid var(--rule); background: var(--panel); cursor: pointer; border-radius: 2px; }
+  .chart-controls .preset:hover { border-color: var(--ink); }
+  .chart-controls .preset.active { background: var(--ink); color: var(--panel); }
+  .chart-svg { width: 100%; height: 380px; }
+  .axis text { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: var(--muted); }
+  .axis line, .axis path { stroke: var(--rule); }
+  .grid-line { stroke: var(--rule); stroke-dasharray: 2 3; }
+  .series-line { fill: none; stroke-width: 2; }
+  .series-dot { stroke: var(--panel); stroke-width: 1.5; }
+  .series-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; }
+
+  /* Legend below map */
+  .legend { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--rule); }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+  .swatch { width: 12px; height: 12px; border-radius: 2px; }
+
+  /* Methodology footer */
+  .methodology { background: var(--panel); border: 1px solid var(--rule); border-radius: 4px; padding: 22px 26px; margin-top: 24px; font-size: 13px; line-height: 1.6; }
+  .methodology h2 { font-size: 16px; font-weight: 700; margin-bottom: 10px; }
+  .methodology p { margin-bottom: 8px; }
+  .methodology .source-line { font-family: 'JetBrains Mono', monospace; font-size: 9.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--rule); line-height: 1.55; }
+
+  .loading { display: flex; align-items: center; justify-content: center; height: 320px; color: var(--muted); font-style: italic; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="eyebrow">Medical Malpractice Premium Tracker · Built on NAIC Data</div>
+    <h1>How Much Are Doctors in Each State Paying?</h1>
+    <p class="subtitle">An annual snapshot of state-by-state medical professional liability insurance. Premium burden is computed from NAIC-published direct premium written, divided by AAMC active physician counts. Click a state to see its history.</p>
+    <div class="data-vintage" id="vintage">DATA VINTAGE: LOADING…</div>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>State Climate Map <span class="small" id="map-mode-display">PREMIUM PER PHYSICIAN</span></h2>
+      <div class="controls">
+        <span class="control-label">View:</span>
+        <button class="active" data-view="rating">Composite Rating</button>
+        <button data-view="naic_premium_per_physician">Premium $/MD</button>
+        <button data-view="naic_loss_ratio">Loss Ratio</button>
+        <button data-view="pct_change_5yr">5-yr Trend</button>
+      </div>
+      <div class="map-wrap">
+        <svg class="usmap" viewBox="0 0 960 600"></svg>
+        <div class="tooltip" id="tt"></div>
+      </div>
+      <div class="legend" id="legend">
+        <div class="legend-item"><span class="swatch" style="background:#4a7c59"></span><span>Favorable (0–25)</span></div>
+        <div class="legend-item"><span class="swatch" style="background:#d4a93b"></span><span>Mixed (26–45)</span></div>
+        <div class="legend-item"><span class="swatch" style="background:#b03a2e"></span><span>Hostile (46+)</span></div>
+      </div>
+    </div>
+
+    <div class="panel" id="detail-panel">
+      <h2>Selected State <span class="small">CLICK A STATE</span></h2>
+      <div class="loading">Click a state on the map to see details.</div>
+    </div>
+  </div>
+
+  <div class="chart-panel">
+    <h2 style="font-size:16px; font-weight:700; margin-bottom:4px;">Direct Premium Written, <span id="data-range">2010–2024</span></h2>
+    <p style="font-size:12px; color:var(--muted); font-style:italic; margin-bottom:14px;">NAIC's annual Countrywide Summary of Medical Professional Liability Insurance, $ in millions. Click states on the map to add them to the chart.</p>
+    <div class="chart-controls">
+      <span class="control-label" style="margin-right:0; padding-top:4px;">Presets:</span>
+      <button class="preset" data-preset="benchmarks">Benchmark states (PA, NY, TX, CA)</button>
+      <button class="preset" data-preset="hostile">All Hostile</button>
+      <button class="preset" data-preset="reform">Reform States (CA, TX, IN, WI)</button>
+      <button class="preset" data-preset="clear">Clear</button>
+    </div>
+    <svg class="chart-svg" id="chart"></svg>
+  </div>
+
+  <div class="methodology">
+    <h2>How This Works</h2>
+    <p><strong>Composite score</strong> = cap structure (0–35) + NAIC premium burden per physician (0–25) + ATRA litigation environment (0–15). Lower scores indicate friendlier climates for physicians.</p>
+    <p><strong>Premium per physician</strong> = NAIC most-recent-year direct premium written ÷ AAMC active physicians. This is the total medical professional liability premium dollars flowing through a state's market, divided by the number of practicing physicians who could be its policyholders. It's a system-level metric — not a manual rate — but it's a real, primary-source measurement of the financial weight of malpractice insurance in each state.</p>
+    <p><strong>Annual update workflow</strong>: When NAIC publishes the new vintage of "Countrywide Summary of Medical Professional Liability Insurance" (typically 18 months after year-end), download the PDF, run the parsing script, and commit the updated <code>map_data.json</code>. The dashboard renders the new data automatically. No scraping; no third-party APIs; no licensing fees.</p>
+    <div class="source-line" id="sources">
+      Sources: NAIC Countrywide Summary of Medical Professional Liability Insurance · AAMC State Physician Workforce Data Reports · ATRA Judicial Hellholes · NCSL state damage cap registry
+    </div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// Premium Tracker Dashboard
+// Loads map_data.json and renders interactive state climate map
+// with year-over-year history for any state on the map.
+// ============================================================
+
+const COLORS = {
+  green: '#4a7c59', yellow: '#d4a93b', red: '#b03a2e', gray: '#cdc7b8'
+};
+const SERIES_COLORS = ['#b03a2e','#2e75b6','#d4a93b','#4a7c59','#9b59b6','#e67e22','#16a085','#34495e'];
+
+let stateData = null;
+let topology = null;
+let currentView = 'rating';
+let selectedStates = new Set();
+
+// ============================================================
+// Load data
+// ============================================================
+async function loadData() {
+  try {
+    const [data, us] = await Promise.all([
+      fetch('map_data.json').then(r => r.json()),
+      d3.json('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
+    ]);
+    stateData = data;
+    topology = us;
+
+    // Find latest year and update vintage label
+    const sample = Object.values(data)[0];
+    const latestYear = Math.max(...sample.history.map(h => h.year));
+    document.getElementById('vintage').textContent = `DATA VINTAGE: NAIC ${latestYear}`;
+
+    // Make vintage labels dynamic
+    const priorYear = latestYear - 5;
+    const allYears = Object.values(stateData)[0]?.history?.map(h => h.year).sort((a,b)=>a-b) || [];
+    const earliestYear = allYears.length ? allYears[0] : latestYear - 14;
+    const setText = (id, txt) => { const el = document.getElementById(id); if (el) el.textContent = txt; };
+    setText('data-range', `${earliestYear}–${latestYear}`);
+    setText('trend-range', `${priorYear} → ${latestYear}`);
+    setText('trend-range-2', `${priorYear} → ${latestYear}`);
+    setText('trend-range-3', `${priorYear}→${latestYear}`);
+    setText('dpw-vintage', `${latestYear} NAIC vintage`);
+
+    // Build FIPS lookup
+    window.byFips = {};
+    Object.values(data).forEach(s => { window.byFips[s.fips] = s; });
+
+    renderMap();
+    bindControls();
+
+    // Default chart: PA, NY, TX, CA
+    selectedStates = new Set(['PA','NY','TX','CA']);
+    document.querySelector('[data-preset="benchmarks"]').classList.add('active');
+    redrawAll();
+  } catch (e) {
+    console.error('Load error:', e);
+    document.getElementById('vintage').textContent = 'ERROR LOADING DATA';
+  }
+}
+
+// ============================================================
+// Map render
+// ============================================================
+function renderMap() {
+  const svg = d3.select('svg.usmap');
+  svg.selectAll('*').remove();
+  const projection = d3.geoAlbersUsa().scale(1240).translate([480, 305]);
+  const path = d3.geoPath().projection(projection);
+  const states = topojson.feature(topology, topology.objects.states).features;
+  const tooltip = d3.select('#tt');
+
+  // Build color scales for non-rating views
+  const valuesByView = {
+    naic_premium_per_physician: Object.values(stateData).map(s => s.naic_premium_per_physician),
+    naic_loss_ratio: Object.values(stateData).map(s => s.naic_loss_ratio),
+    pct_change_5yr: Object.values(stateData).map(s => s.pct_change_5yr),
+  };
+
+  function fillFor(info) {
+    if (currentView === 'rating') return COLORS[info.rating];
+    const vals = valuesByView[currentView];
+    const v = info[currentView];
+    const min = Math.min(...vals), max = Math.max(...vals);
+    const t = (v - min) / (max - min);
+    // Interpolate green->yellow->red
+    if (t < 0.5) {
+      const r = 74 + (212 - 74) * (t * 2);
+      const g = 124 + (169 - 124) * (t * 2);
+      const b = 89 + (59 - 89) * (t * 2);
+      return `rgb(${Math.round(r)},${Math.round(g)},${Math.round(b)})`;
+    } else {
+      const r = 212 + (176 - 212) * ((t - 0.5) * 2);
+      const g = 169 + (58 - 169) * ((t - 0.5) * 2);
+      const b = 59 + (46 - 59) * ((t - 0.5) * 2);
+      return `rgb(${Math.round(r)},${Math.round(g)},${Math.round(b)})`;
+    }
+  }
+
+  const fmtUSD = (n) => '$' + Number(n).toLocaleString();
+  const fmtPct = (n) => (n > 0 ? '+' : '') + n.toFixed(1) + '%';
+
+  svg.append('g').selectAll('path').data(states).enter().append('path')
+    .attr('class', d => 'state' + (selectedStates.has(byFipsCode(d.id)) ? ' selected' : ''))
+    .attr('d', path)
+    .attr('fill', d => {
+      const info = window.byFips[String(d.id).padStart(2,'0')];
+      return info ? fillFor(info) : COLORS.gray;
+    })
+    .on('mousemove', function(event, d) {
+      const info = window.byFips[String(d.id).padStart(2,'0')];
+      if (!info) return;
+      let body = '';
+      if (currentView === 'rating') {
+        body = `<div class="stat">Score ${info.total_score}/75 · ${info.rating.toUpperCase()}</div>
+                <div class="stat" style="margin-top:4px;color:rgba(255,253,246,0.7)">Click to track</div>`;
+      } else if (currentView === 'naic_premium_per_physician') {
+        body = `<div class="stat">${fmtUSD(info.naic_premium_per_physician)}/MD</div>
+                <div class="stat" style="margin-top:4px;color:rgba(255,253,246,0.7)">Total DPW: ${fmtUSD(info.naic_dpw)}</div>`;
+      } else if (currentView === 'naic_loss_ratio') {
+        body = `<div class="stat">Loss & DCC ratio: ${info.naic_loss_ratio.toFixed(1)}%</div>
+                <div class="stat" style="margin-top:4px;color:rgba(255,253,246,0.7)">${info.naic_loss_ratio > 100 ? 'Underwriting loss' : 'Underwriting profit'}</div>`;
+      } else if (currentView === 'pct_change_5yr') {
+        body = `<div class="stat">5-year DPW change: ${fmtPct(info.pct_change_5yr)}</div>
+                <div class="stat" style="margin-top:4px;color:rgba(255,253,246,0.7)" id="trend-range">2019 → 2024</div>`;
+      }
+      tooltip.style('opacity', 1).html(`<div class="name">${info.name}</div>${body}`);
+      const rect = document.querySelector('.map-wrap').getBoundingClientRect();
+      let x = event.clientX - rect.left + 12;
+      let y = event.clientY - rect.top + 12;
+      if (x + 290 > rect.width) x = event.clientX - rect.left - 300;
+      tooltip.style('left', x+'px').style('top', y+'px');
+    })
+    .on('mouseleave', () => tooltip.style('opacity', 0))
+    .on('click', function(event, d) {
+      const code = byFipsCode(d.id);
+      if (!code) return;
+      // Toggle in selectedStates
+      if (selectedStates.has(code)) selectedStates.delete(code);
+      else selectedStates.add(code);
+      // Clear preset
+      document.querySelectorAll('.preset').forEach(b => b.classList.remove('active'));
+      // Update detail panel and chart
+      showDetail(code);
+      redrawAll();
+    });
+
+  svg.append('g').selectAll('text').data(states).enter().append('text')
+    .attr('class', d => {
+      const info = window.byFips[String(d.id).padStart(2,'0')];
+      return 'state-label' + (info && info.rating === 'yellow' && currentView === 'rating' ? ' dark' : '');
+    })
+    .attr('transform', d => {
+      const c = path.centroid(d);
+      if (isNaN(c[0])) return 'translate(-9999,-9999)';
+      return `translate(${c[0]}, ${c[1]+3})`;
+    })
+    .text(d => {
+      const info = window.byFips[String(d.id).padStart(2,'0')];
+      return info ? info.code : '';
+    });
+}
+
+function byFipsCode(fipsId) {
+  const info = window.byFips[String(fipsId).padStart(2,'0')];
+  return info ? info.code : null;
+}
+
+// ============================================================
+// Detail panel
+// ============================================================
+function showDetail(code) {
+  const info = stateData[code];
+  if (!info) return;
+  const fmtUSD = n => '$' + Number(n).toLocaleString();
+  const trend = info.pct_change_5yr > 0 ? '▲' : info.pct_change_5yr < 0 ? '▼' : '·';
+  const trendColor = info.pct_change_5yr > 5 ? '#b03a2e' : info.pct_change_5yr > 0 ? '#d4a93b' : '#4a7c59';
+
+  document.getElementById('detail-panel').innerHTML = `
+    <h2>Selected State <span class="small">CLICK MAP TO COMPARE</span></h2>
+    <div class="detail-name">${info.name}</div>
+    <div class="detail-rating ${info.rating}">${info.rating === 'green' ? 'Favorable' : info.rating === 'yellow' ? 'Mixed' : 'Hostile'} · Score ${info.total_score}/75</div>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-label">NAIC Premium / MD</div>
+        <div class="stat-value">${fmtUSD(info.naic_premium_per_physician)}</div>
+        <div class="stat-sub">${info.physicians.toLocaleString()} active physicians</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total DPW</div>
+        <div class="stat-value">${fmtUSD(Math.round(info.naic_dpw / 1e6))}M</div>
+        <div class="stat-sub" id="dpw-vintage">2024 NAIC vintage</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Loss & DCC Ratio</div>
+        <div class="stat-value">${info.naic_loss_ratio.toFixed(1)}%</div>
+        <div class="stat-sub">${info.naic_loss_ratio > 100 ? 'Underwriting loss' : 'Underwriting profit'}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">5-Year DPW Change</div>
+        <div class="stat-value" style="color:${trendColor}">${trend} ${info.pct_change_5yr > 0 ? '+' : ''}${info.pct_change_5yr}%</div>
+        <div class="stat-sub" id="trend-range-2">2019 → 2024</div>
+      </div>
+    </div>
+
+    <div class="components">
+      <div class="component"><span class="lbl">Cap structure</span><span class="val">${info.cap_score}/35</span></div>
+      <div class="component"><span class="lbl">NAIC premium burden</span><span class="val">${info.naic_score}/25</span></div>
+      <div class="component"><span class="lbl">Litigation environment</span><span class="val">${info.litig_score}/15</span></div>
+      <div class="total-score"><span>Total</span><span>${info.total_score}/75</span></div>
+    </div>
+
+    <p style="font-size:13px; color:var(--muted); font-style:italic; margin-top:12px;">${info.cap_note}</p>
+  `;
+}
+
+// ============================================================
+// Trend chart
+// ============================================================
+function drawChart() {
+  const svg = d3.select('#chart');
+  svg.selectAll('*').remove();
+  const w = svg.node().clientWidth;
+  const h = 380;
+  const margin = { top: 20, right: 100, bottom: 40, left: 70 };
+  const innerW = w - margin.left - margin.right;
+  const innerH = h - margin.top - margin.bottom;
+
+  if (selectedStates.size === 0) {
+    svg.append('text')
+      .attr('x', w/2).attr('y', h/2).attr('text-anchor','middle')
+      .style('font-family','Crimson Pro').style('font-style','italic').style('fill','var(--muted)')
+      .text('Click states on the map or choose a preset to see DPW trends.');
+    return;
+  }
+
+  const codes = Array.from(selectedStates);
+  const allData = codes.map(c => ({ code: c, name: stateData[c].name, history: stateData[c].history }));
+
+  const allYears = Array.from(new Set(allData.flatMap(d => d.history.map(h => h.year)))).sort();
+  const xScale = d3.scaleLinear().domain([Math.min(...allYears), Math.max(...allYears)]).range([0, innerW]);
+
+  const allDPW = allData.flatMap(d => d.history.map(h => h.dpw));
+  const yMax = Math.max(...allDPW) * 1.05;
+  const yScale = d3.scaleLinear().domain([0, yMax]).range([innerH, 0]);
+
+  const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  // Grid lines
+  yScale.ticks(5).forEach(t => {
+    g.append('line').attr('class','grid-line').attr('x1',0).attr('x2',innerW).attr('y1',yScale(t)).attr('y2',yScale(t));
+  });
+
+  // Axes
+  const xAxis = d3.axisBottom(xScale).tickFormat(d3.format('d')).ticks(8);
+  const yAxis = d3.axisLeft(yScale).tickFormat(d => '$' + (d/1e6).toFixed(0) + 'M').ticks(5);
+  g.append('g').attr('class','axis').attr('transform',`translate(0,${innerH})`).call(xAxis);
+  g.append('g').attr('class','axis').call(yAxis);
+
+  // Y axis label
+  g.append('text').attr('x',-innerH/2).attr('y',-50).attr('transform','rotate(-90)').attr('text-anchor','middle')
+    .style('font-family','JetBrains Mono').style('font-size','10px').style('fill','var(--muted)').style('letter-spacing','0.06em')
+    .text('DIRECT PREMIUM WRITTEN');
+
+  // Series
+  const line = d3.line().x(d => xScale(d.year)).y(d => yScale(d.dpw));
+
+  allData.forEach((s, i) => {
+    const color = SERIES_COLORS[i % SERIES_COLORS.length];
+    g.append('path').attr('class','series-line').attr('d', line(s.history)).attr('stroke', color);
+    s.history.forEach(p => {
+      g.append('circle').attr('class','series-dot').attr('cx', xScale(p.year)).attr('cy', yScale(p.dpw)).attr('r', 3).attr('fill', color);
+    });
+    // Label at end
+    const last = s.history[s.history.length - 1];
+    g.append('text').attr('class','series-label').attr('x', xScale(last.year) + 8).attr('y', yScale(last.dpw) + 4).attr('fill', color).text(s.code);
+  });
+}
+
+// ============================================================
+// Controls
+// ============================================================
+function bindControls() {
+  document.querySelectorAll('[data-view]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentView = btn.dataset.view;
+      const labels = {
+        rating: 'COMPOSITE RATING',
+        naic_premium_per_physician: 'PREMIUM PER PHYSICIAN',
+        naic_loss_ratio: 'LOSS & DCC RATIO',
+        pct_change_5yr: '5-YEAR DPW CHANGE'
+      };
+      document.getElementById('map-mode-display').textContent = labels[currentView];
+      updateLegend();
+      renderMap();
+    });
+  });
+
+  document.querySelectorAll('.preset').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.preset').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const preset = btn.dataset.preset;
+      if (preset === 'benchmarks') selectedStates = new Set(['PA','NY','TX','CA']);
+      else if (preset === 'hostile') selectedStates = new Set(Object.keys(stateData).filter(c => stateData[c].rating === 'red'));
+      else if (preset === 'reform') selectedStates = new Set(['CA','TX','IN','WI']);
+      else if (preset === 'clear') selectedStates = new Set();
+      renderMap();
+      drawChart();
+    });
+  });
+}
+
+function updateLegend() {
+  const legend = document.getElementById('legend');
+  if (currentView === 'rating') {
+    legend.innerHTML = `
+      <div class="legend-item"><span class="swatch" style="background:#4a7c59"></span><span>Favorable (0–25)</span></div>
+      <div class="legend-item"><span class="swatch" style="background:#d4a93b"></span><span>Mixed (26–45)</span></div>
+      <div class="legend-item"><span class="swatch" style="background:#b03a2e"></span><span>Hostile (46+)</span></div>
+    `;
+  } else if (currentView === 'naic_premium_per_physician') {
+    legend.innerHTML = `
+      <div class="legend-item"><span class="swatch" style="background:#4a7c59"></span><span>Lower premium burden</span></div>
+      <div class="legend-item"><span class="swatch" style="background:#b03a2e"></span><span>Higher premium burden</span></div>
+      <div class="legend-item" style="font-size:11px;color:var(--muted);font-style:italic">Range: ~$4,400 – ~$21,000 per active physician</div>
+    `;
+  } else if (currentView === 'naic_loss_ratio') {
+    legend.innerHTML = `
+      <div class="legend-item"><span class="swatch" style="background:#4a7c59"></span><span>Lower loss ratio (carrier profitable)</span></div>
+      <div class="legend-item"><span class="swatch" style="background:#b03a2e"></span><span>Higher loss ratio (underwriting losses)</span></div>
+      <div class="legend-item" style="font-size:11px;color:var(--muted);font-style:italic">>100% = paid out more than collected</div>
+    `;
+  } else if (currentView === 'pct_change_5yr') {
+    legend.innerHTML = `
+      <div class="legend-item"><span class="swatch" style="background:#4a7c59"></span><span>DPW shrinking (<span id="trend-range-3">2019→2024</span>)</span></div>
+      <div class="legend-item"><span class="swatch" style="background:#b03a2e"></span><span>DPW growing</span></div>
+    `;
+  }
+}
+
+function redrawAll() {
+  renderMap();
+  drawChart();
+  if (selectedStates.size === 1) {
+    showDetail(Array.from(selectedStates)[0]);
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>

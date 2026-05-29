@@ -1,0 +1,4796 @@
+{
+ "AK": {
+  "name": "Alaska",
+  "code": "AK",
+  "fips": "02",
+  "cap_score": 0,
+  "naic_score": 15,
+  "litig_score": 0,
+  "total_score": 15,
+  "rating": "green",
+  "cap_note": "$400K cap on noneconomic damages",
+  "naic_dpw": 27239230,
+  "naic_loss_ratio": 43.24,
+  "naic_premium_per_physician": 12965,
+  "physicians": 2101,
+  "naic_2014_dpw": 24089450,
+  "pct_change_5yr": 13.1,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 22927894,
+    "loss_ratio": 68.35
+   },
+   {
+    "year": 2011,
+    "dpw": 22703036,
+    "loss_ratio": 43.07
+   },
+   {
+    "year": 2012,
+    "dpw": 22107229,
+    "loss_ratio": 36.78
+   },
+   {
+    "year": 2013,
+    "dpw": 22443385,
+    "loss_ratio": 7.53
+   },
+   {
+    "year": 2014,
+    "dpw": 23415271,
+    "loss_ratio": 49.74
+   },
+   {
+    "year": 2015,
+    "dpw": 23547386,
+    "loss_ratio": 29.66
+   },
+   {
+    "year": 2016,
+    "dpw": 23479636,
+    "loss_ratio": 37.7
+   },
+   {
+    "year": 2017,
+    "dpw": 23630676,
+    "loss_ratio": 83.8
+   },
+   {
+    "year": 2018,
+    "dpw": 23449605,
+    "loss_ratio": 40.99
+   },
+   {
+    "year": 2019,
+    "dpw": 24089450,
+    "loss_ratio": 103.47
+   },
+   {
+    "year": 2020,
+    "dpw": 23554982,
+    "loss_ratio": 53.0
+   },
+   {
+    "year": 2021,
+    "dpw": 24133307,
+    "loss_ratio": 75.68
+   },
+   {
+    "year": 2022,
+    "dpw": 25119307,
+    "loss_ratio": 9.52
+   },
+   {
+    "year": 2023,
+    "dpw": 26267373,
+    "loss_ratio": 90.08
+   },
+   {
+    "year": 2024,
+    "dpw": 27239230,
+    "loss_ratio": 43.24
+   }
+  ]
+ },
+ "AL": {
+  "name": "Alabama",
+  "code": "AL",
+  "fips": "01",
+  "cap_score": 30,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 55,
+  "rating": "red",
+  "cap_note": "Cap struck (Sup Ct, Mobile Infirmary v. Tyler 1991)",
+  "naic_dpw": 200414862,
+  "naic_loss_ratio": 72.29,
+  "naic_premium_per_physician": 18248,
+  "physicians": 10983,
+  "naic_2014_dpw": 130454899,
+  "pct_change_5yr": 53.6,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 135274971,
+    "loss_ratio": 39.88
+   },
+   {
+    "year": 2011,
+    "dpw": 140232428,
+    "loss_ratio": 36.73
+   },
+   {
+    "year": 2012,
+    "dpw": 131549749,
+    "loss_ratio": 19.3
+   },
+   {
+    "year": 2013,
+    "dpw": 132416589,
+    "loss_ratio": 43.6
+   },
+   {
+    "year": 2014,
+    "dpw": 118961519,
+    "loss_ratio": 35.64
+   },
+   {
+    "year": 2015,
+    "dpw": 122502327,
+    "loss_ratio": 47.98
+   },
+   {
+    "year": 2016,
+    "dpw": 116216006,
+    "loss_ratio": 54.52
+   },
+   {
+    "year": 2017,
+    "dpw": 122394054,
+    "loss_ratio": 60.05
+   },
+   {
+    "year": 2018,
+    "dpw": 117829021,
+    "loss_ratio": 52.51
+   },
+   {
+    "year": 2019,
+    "dpw": 130454899,
+    "loss_ratio": 85.68
+   },
+   {
+    "year": 2020,
+    "dpw": 131386324,
+    "loss_ratio": 71.37
+   },
+   {
+    "year": 2021,
+    "dpw": 156172230,
+    "loss_ratio": 67.65
+   },
+   {
+    "year": 2022,
+    "dpw": 170527430,
+    "loss_ratio": 102.59
+   },
+   {
+    "year": 2023,
+    "dpw": 175390084,
+    "loss_ratio": 95.82
+   },
+   {
+    "year": 2024,
+    "dpw": 200414862,
+    "loss_ratio": 72.29
+   }
+  ]
+ },
+ "AR": {
+  "name": "Arkansas",
+  "code": "AR",
+  "fips": "05",
+  "cap_score": 30,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 50,
+  "rating": "red",
+  "cap_note": "Cap struck",
+  "naic_dpw": 90970394,
+  "naic_loss_ratio": 65.98,
+  "naic_premium_per_physician": 13995,
+  "physicians": 6500,
+  "naic_2014_dpw": 64383649,
+  "pct_change_5yr": 41.3,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 71615403,
+    "loss_ratio": 32.27
+   },
+   {
+    "year": 2011,
+    "dpw": 70104220,
+    "loss_ratio": 48.13
+   },
+   {
+    "year": 2012,
+    "dpw": 66620893,
+    "loss_ratio": 77.5
+   },
+   {
+    "year": 2013,
+    "dpw": 66129707,
+    "loss_ratio": 85.78
+   },
+   {
+    "year": 2014,
+    "dpw": 62443973,
+    "loss_ratio": 49.63
+   },
+   {
+    "year": 2015,
+    "dpw": 64082534,
+    "loss_ratio": 96.4
+   },
+   {
+    "year": 2016,
+    "dpw": 64212524,
+    "loss_ratio": 75.41
+   },
+   {
+    "year": 2017,
+    "dpw": 62592631,
+    "loss_ratio": 91.45
+   },
+   {
+    "year": 2018,
+    "dpw": 64145620,
+    "loss_ratio": 57.85
+   },
+   {
+    "year": 2019,
+    "dpw": 64383649,
+    "loss_ratio": 93.58
+   },
+   {
+    "year": 2020,
+    "dpw": 64176276,
+    "loss_ratio": 74.13
+   },
+   {
+    "year": 2021,
+    "dpw": 76523851,
+    "loss_ratio": 40.16
+   },
+   {
+    "year": 2022,
+    "dpw": 79764053,
+    "loss_ratio": 88.81
+   },
+   {
+    "year": 2023,
+    "dpw": 89496709,
+    "loss_ratio": 32.86
+   },
+   {
+    "year": 2024,
+    "dpw": 90970394,
+    "loss_ratio": 65.98
+   }
+  ]
+ },
+ "AZ": {
+  "name": "Arizona",
+  "code": "AZ",
+  "fips": "04",
+  "cap_score": 30,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 50,
+  "rating": "red",
+  "cap_note": "Constitutional bar on damage caps",
+  "naic_dpw": 273292204,
+  "naic_loss_ratio": 63.39,
+  "naic_premium_per_physician": 14899,
+  "physicians": 18343,
+  "naic_2014_dpw": 210952521,
+  "pct_change_5yr": 29.6,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 253065097,
+    "loss_ratio": 31.06
+   },
+   {
+    "year": 2011,
+    "dpw": 238798321,
+    "loss_ratio": 28.62
+   },
+   {
+    "year": 2012,
+    "dpw": 227339783,
+    "loss_ratio": 43.95
+   },
+   {
+    "year": 2013,
+    "dpw": 228906403,
+    "loss_ratio": 42.67
+   },
+   {
+    "year": 2014,
+    "dpw": 219732551,
+    "loss_ratio": 46.26
+   },
+   {
+    "year": 2015,
+    "dpw": 220507818,
+    "loss_ratio": 53.79
+   },
+   {
+    "year": 2016,
+    "dpw": 215921117,
+    "loss_ratio": 57.05
+   },
+   {
+    "year": 2017,
+    "dpw": 205277524,
+    "loss_ratio": 59.45
+   },
+   {
+    "year": 2018,
+    "dpw": 202203700,
+    "loss_ratio": 57.57
+   },
+   {
+    "year": 2019,
+    "dpw": 210952521,
+    "loss_ratio": 69.5
+   },
+   {
+    "year": 2020,
+    "dpw": 209836377,
+    "loss_ratio": 61.33
+   },
+   {
+    "year": 2021,
+    "dpw": 227178795,
+    "loss_ratio": 54.82
+   },
+   {
+    "year": 2022,
+    "dpw": 239689320,
+    "loss_ratio": 71.17
+   },
+   {
+    "year": 2023,
+    "dpw": 256611404,
+    "loss_ratio": 65.69
+   },
+   {
+    "year": 2024,
+    "dpw": 273292204,
+    "loss_ratio": 63.39
+   }
+  ]
+ },
+ "CA": {
+  "name": "California",
+  "code": "CA",
+  "fips": "06",
+  "cap_score": 0,
+  "naic_score": 10,
+  "litig_score": 0,
+  "total_score": 10,
+  "rating": "green",
+  "cap_note": "MICRA cap (now $430K, scaling to $750K by 2034)",
+  "naic_dpw": 1068655161,
+  "naic_loss_ratio": 62.94,
+  "naic_premium_per_physician": 9397,
+  "physicians": 113718,
+  "naic_2014_dpw": 813197287,
+  "pct_change_5yr": 31.4,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 820264942,
+    "loss_ratio": 46.46
+   },
+   {
+    "year": 2011,
+    "dpw": 813965769,
+    "loss_ratio": 58.7
+   },
+   {
+    "year": 2012,
+    "dpw": 771236555,
+    "loss_ratio": 62.26
+   },
+   {
+    "year": 2013,
+    "dpw": 742926878,
+    "loss_ratio": 65.02
+   },
+   {
+    "year": 2014,
+    "dpw": 754339896,
+    "loss_ratio": 77.61
+   },
+   {
+    "year": 2015,
+    "dpw": 752034806,
+    "loss_ratio": 67.58
+   },
+   {
+    "year": 2016,
+    "dpw": 756983318,
+    "loss_ratio": 69.93
+   },
+   {
+    "year": 2017,
+    "dpw": 760302111,
+    "loss_ratio": 75.16
+   },
+   {
+    "year": 2018,
+    "dpw": 758932851,
+    "loss_ratio": 62.64
+   },
+   {
+    "year": 2019,
+    "dpw": 813197287,
+    "loss_ratio": 93.7
+   },
+   {
+    "year": 2020,
+    "dpw": 836712273,
+    "loss_ratio": 79.1
+   },
+   {
+    "year": 2021,
+    "dpw": 932215649,
+    "loss_ratio": 75.19
+   },
+   {
+    "year": 2022,
+    "dpw": 969141579,
+    "loss_ratio": 47.49
+   },
+   {
+    "year": 2023,
+    "dpw": 1032839315,
+    "loss_ratio": 73.5
+   },
+   {
+    "year": 2024,
+    "dpw": 1068655161,
+    "loss_ratio": 62.94
+   }
+  ]
+ },
+ "CO": {
+  "name": "Colorado",
+  "code": "CO",
+  "fips": "08",
+  "cap_score": 10,
+  "naic_score": 15,
+  "litig_score": 0,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$300K noneconomic cap, indexed",
+  "naic_dpw": 201524099,
+  "naic_loss_ratio": 61.12,
+  "naic_premium_per_physician": 11885,
+  "physicians": 16956,
+  "naic_2014_dpw": 151308013,
+  "pct_change_5yr": 33.2,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 166468203,
+    "loss_ratio": 36.49
+   },
+   {
+    "year": 2011,
+    "dpw": 159664914,
+    "loss_ratio": 42.3
+   },
+   {
+    "year": 2012,
+    "dpw": 165411318,
+    "loss_ratio": 46.29
+   },
+   {
+    "year": 2013,
+    "dpw": 159268522,
+    "loss_ratio": 45.96
+   },
+   {
+    "year": 2014,
+    "dpw": 155749791,
+    "loss_ratio": 41.12
+   },
+   {
+    "year": 2015,
+    "dpw": 161006288,
+    "loss_ratio": 50.3
+   },
+   {
+    "year": 2016,
+    "dpw": 152124503,
+    "loss_ratio": 61.79
+   },
+   {
+    "year": 2017,
+    "dpw": 149675486,
+    "loss_ratio": 67.69
+   },
+   {
+    "year": 2018,
+    "dpw": 149174655,
+    "loss_ratio": 60.08
+   },
+   {
+    "year": 2019,
+    "dpw": 151308013,
+    "loss_ratio": 59.64
+   },
+   {
+    "year": 2020,
+    "dpw": 156469229,
+    "loss_ratio": 39.05
+   },
+   {
+    "year": 2021,
+    "dpw": 177729954,
+    "loss_ratio": 67.27
+   },
+   {
+    "year": 2022,
+    "dpw": 187932355,
+    "loss_ratio": 49.66
+   },
+   {
+    "year": 2023,
+    "dpw": 186138390,
+    "loss_ratio": 62.3
+   },
+   {
+    "year": 2024,
+    "dpw": 201524099,
+    "loss_ratio": 61.12
+   }
+  ]
+ },
+ "CT": {
+  "name": "Connecticut",
+  "code": "CT",
+  "fips": "09",
+  "cap_score": 30,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 55,
+  "rating": "red",
+  "cap_note": "No cap",
+  "naic_dpw": 255939943,
+  "naic_loss_ratio": 132.39,
+  "naic_premium_per_physician": 19723,
+  "physicians": 12977,
+  "naic_2014_dpw": 205278198,
+  "pct_change_5yr": 24.7,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 187939784,
+    "loss_ratio": 34.98
+   },
+   {
+    "year": 2011,
+    "dpw": 174677021,
+    "loss_ratio": 35.16
+   },
+   {
+    "year": 2012,
+    "dpw": 172811640,
+    "loss_ratio": 37.06
+   },
+   {
+    "year": 2013,
+    "dpw": 151758261,
+    "loss_ratio": 49.59
+   },
+   {
+    "year": 2014,
+    "dpw": 168095353,
+    "loss_ratio": 82.85
+   },
+   {
+    "year": 2015,
+    "dpw": 157012826,
+    "loss_ratio": 81.07
+   },
+   {
+    "year": 2016,
+    "dpw": 171554520,
+    "loss_ratio": 94.38
+   },
+   {
+    "year": 2017,
+    "dpw": 181877455,
+    "loss_ratio": 107.23
+   },
+   {
+    "year": 2018,
+    "dpw": 183986889,
+    "loss_ratio": 98.71
+   },
+   {
+    "year": 2019,
+    "dpw": 205278198,
+    "loss_ratio": 134.28
+   },
+   {
+    "year": 2020,
+    "dpw": 221470577,
+    "loss_ratio": 82.78
+   },
+   {
+    "year": 2021,
+    "dpw": 236536066,
+    "loss_ratio": 92.5
+   },
+   {
+    "year": 2022,
+    "dpw": 253054408,
+    "loss_ratio": 105.32
+   },
+   {
+    "year": 2023,
+    "dpw": 246741814,
+    "loss_ratio": 92.56
+   },
+   {
+    "year": 2024,
+    "dpw": 255939943,
+    "loss_ratio": 132.39
+   }
+  ]
+ },
+ "DC": {
+  "name": "DC",
+  "code": "DC",
+  "fips": "11",
+  "cap_score": 30,
+  "naic_score": 0,
+  "litig_score": 0,
+  "total_score": 30,
+  "rating": "yellow",
+  "cap_note": "No cap",
+  "naic_dpw": 31832308,
+  "naic_loss_ratio": 101.23,
+  "naic_premium_per_physician": 5440,
+  "physicians": 5852,
+  "naic_2014_dpw": 25703774,
+  "pct_change_5yr": 23.8,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 38124683,
+    "loss_ratio": 31.79
+   },
+   {
+    "year": 2011,
+    "dpw": 37097641,
+    "loss_ratio": 31.32
+   },
+   {
+    "year": 2012,
+    "dpw": 36631372,
+    "loss_ratio": 52.48
+   },
+   {
+    "year": 2013,
+    "dpw": 31720634,
+    "loss_ratio": 19.23
+   },
+   {
+    "year": 2014,
+    "dpw": 30654852,
+    "loss_ratio": 44.14
+   },
+   {
+    "year": 2015,
+    "dpw": 26458504,
+    "loss_ratio": -6.08
+   },
+   {
+    "year": 2016,
+    "dpw": 26988555,
+    "loss_ratio": 14.65
+   },
+   {
+    "year": 2017,
+    "dpw": 27049448,
+    "loss_ratio": 39.13
+   },
+   {
+    "year": 2018,
+    "dpw": 27723666,
+    "loss_ratio": 6.68
+   },
+   {
+    "year": 2019,
+    "dpw": 25703774,
+    "loss_ratio": 88.74
+   },
+   {
+    "year": 2020,
+    "dpw": 30051555,
+    "loss_ratio": 48.72
+   },
+   {
+    "year": 2021,
+    "dpw": 31822102,
+    "loss_ratio": 63.03
+   },
+   {
+    "year": 2022,
+    "dpw": 32322266,
+    "loss_ratio": 33.64
+   },
+   {
+    "year": 2023,
+    "dpw": 28019025,
+    "loss_ratio": 43.85
+   },
+   {
+    "year": 2024,
+    "dpw": 31832308,
+    "loss_ratio": 101.23
+   }
+  ]
+ },
+ "DE": {
+  "name": "Delaware",
+  "code": "DE",
+  "fips": "10",
+  "cap_score": 30,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 55,
+  "rating": "red",
+  "cap_note": "No cap",
+  "naic_dpw": 45999366,
+  "naic_loss_ratio": 79.1,
+  "naic_premium_per_physician": 16140,
+  "physicians": 2850,
+  "naic_2014_dpw": 30186497,
+  "pct_change_5yr": 52.4,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 39445963,
+    "loss_ratio": 64.23
+   },
+   {
+    "year": 2011,
+    "dpw": 39262583,
+    "loss_ratio": 61.7
+   },
+   {
+    "year": 2012,
+    "dpw": 38710439,
+    "loss_ratio": 228.48
+   },
+   {
+    "year": 2013,
+    "dpw": 37780394,
+    "loss_ratio": 56.35
+   },
+   {
+    "year": 2014,
+    "dpw": 34316338,
+    "loss_ratio": 45.04
+   },
+   {
+    "year": 2015,
+    "dpw": 33723091,
+    "loss_ratio": 42.53
+   },
+   {
+    "year": 2016,
+    "dpw": 32760014,
+    "loss_ratio": 44.34
+   },
+   {
+    "year": 2017,
+    "dpw": 30069264,
+    "loss_ratio": 78.86
+   },
+   {
+    "year": 2018,
+    "dpw": 29891684,
+    "loss_ratio": 71.86
+   },
+   {
+    "year": 2019,
+    "dpw": 30186497,
+    "loss_ratio": 63.39
+   },
+   {
+    "year": 2020,
+    "dpw": 30799663,
+    "loss_ratio": 104.72
+   },
+   {
+    "year": 2021,
+    "dpw": 36557902,
+    "loss_ratio": 56.44
+   },
+   {
+    "year": 2022,
+    "dpw": 37766730,
+    "loss_ratio": 129.71
+   },
+   {
+    "year": 2023,
+    "dpw": 47385921,
+    "loss_ratio": 59.04
+   },
+   {
+    "year": 2024,
+    "dpw": 45999366,
+    "loss_ratio": 79.1
+   }
+  ]
+ },
+ "FL": {
+  "name": "Florida",
+  "code": "FL",
+  "fips": "12",
+  "cap_score": 35,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 60,
+  "rating": "red",
+  "cap_note": "Cap struck (2017, McCall v. US)",
+  "naic_dpw": 1052363154,
+  "naic_loss_ratio": 68.53,
+  "naic_premium_per_physician": 17891,
+  "physicians": 58822,
+  "naic_2014_dpw": 648090524,
+  "pct_change_5yr": 62.4,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 567345078,
+    "loss_ratio": 46.58
+   },
+   {
+    "year": 2011,
+    "dpw": 554897141,
+    "loss_ratio": 41.26
+   },
+   {
+    "year": 2012,
+    "dpw": 545298004,
+    "loss_ratio": 62.8
+   },
+   {
+    "year": 2013,
+    "dpw": 595893712,
+    "loss_ratio": 58.18
+   },
+   {
+    "year": 2014,
+    "dpw": 593263143,
+    "loss_ratio": 46.3
+   },
+   {
+    "year": 2015,
+    "dpw": 572342525,
+    "loss_ratio": 76.18
+   },
+   {
+    "year": 2016,
+    "dpw": 594567473,
+    "loss_ratio": 81.3
+   },
+   {
+    "year": 2017,
+    "dpw": 594986113,
+    "loss_ratio": 89.53
+   },
+   {
+    "year": 2018,
+    "dpw": 603908761,
+    "loss_ratio": 79.03
+   },
+   {
+    "year": 2019,
+    "dpw": 648090524,
+    "loss_ratio": 90.78
+   },
+   {
+    "year": 2020,
+    "dpw": 748734600,
+    "loss_ratio": 75.24
+   },
+   {
+    "year": 2021,
+    "dpw": 890725424,
+    "loss_ratio": 80.83
+   },
+   {
+    "year": 2022,
+    "dpw": 915237163,
+    "loss_ratio": 57.3
+   },
+   {
+    "year": 2023,
+    "dpw": 946954975,
+    "loss_ratio": 66.69
+   },
+   {
+    "year": 2024,
+    "dpw": 1052363154,
+    "loss_ratio": 68.53
+   }
+  ]
+ },
+ "GA": {
+  "name": "Georgia",
+  "code": "GA",
+  "fips": "13",
+  "cap_score": 30,
+  "naic_score": 25,
+  "litig_score": 5,
+  "total_score": 60,
+  "rating": "red",
+  "cap_note": "Cap struck (2010); recent reform package",
+  "naic_dpw": 462456242,
+  "naic_loss_ratio": 108.58,
+  "naic_premium_per_physician": 18445,
+  "physicians": 25072,
+  "naic_2014_dpw": 285153462,
+  "pct_change_5yr": 62.2,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 318755048,
+    "loss_ratio": 44.37
+   },
+   {
+    "year": 2011,
+    "dpw": 284732961,
+    "loss_ratio": 41.82
+   },
+   {
+    "year": 2012,
+    "dpw": 284826676,
+    "loss_ratio": 51.95
+   },
+   {
+    "year": 2013,
+    "dpw": 260079561,
+    "loss_ratio": 58.64
+   },
+   {
+    "year": 2014,
+    "dpw": 254346213,
+    "loss_ratio": 63.17
+   },
+   {
+    "year": 2015,
+    "dpw": 241948940,
+    "loss_ratio": 67.33
+   },
+   {
+    "year": 2016,
+    "dpw": 236038624,
+    "loss_ratio": 102.78
+   },
+   {
+    "year": 2017,
+    "dpw": 254190263,
+    "loss_ratio": 100.11
+   },
+   {
+    "year": 2018,
+    "dpw": 307204650,
+    "loss_ratio": 103.15
+   },
+   {
+    "year": 2019,
+    "dpw": 285153462,
+    "loss_ratio": 115.03
+   },
+   {
+    "year": 2020,
+    "dpw": 326181719,
+    "loss_ratio": 113.72
+   },
+   {
+    "year": 2021,
+    "dpw": 372731959,
+    "loss_ratio": 95.15
+   },
+   {
+    "year": 2022,
+    "dpw": 401962070,
+    "loss_ratio": 80.4
+   },
+   {
+    "year": 2023,
+    "dpw": 437715833,
+    "loss_ratio": 71.59
+   },
+   {
+    "year": 2024,
+    "dpw": 462456242,
+    "loss_ratio": 108.58
+   }
+  ]
+ },
+ "HI": {
+  "name": "Hawaii",
+  "code": "HI",
+  "fips": "15",
+  "cap_score": 30,
+  "naic_score": 10,
+  "litig_score": 0,
+  "total_score": 40,
+  "rating": "yellow",
+  "cap_note": "No cap",
+  "naic_dpw": 41993601,
+  "naic_loss_ratio": 85.66,
+  "naic_premium_per_physician": 9215,
+  "physicians": 4557,
+  "naic_2014_dpw": 30095810,
+  "pct_change_5yr": 39.5,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 25080504,
+    "loss_ratio": 22.38
+   },
+   {
+    "year": 2011,
+    "dpw": 29617816,
+    "loss_ratio": 58.06
+   },
+   {
+    "year": 2012,
+    "dpw": 29742309,
+    "loss_ratio": 15.95
+   },
+   {
+    "year": 2013,
+    "dpw": 27778773,
+    "loss_ratio": 8.88
+   },
+   {
+    "year": 2014,
+    "dpw": 29360208,
+    "loss_ratio": 99.92
+   },
+   {
+    "year": 2015,
+    "dpw": 27272126,
+    "loss_ratio": 77.14
+   },
+   {
+    "year": 2016,
+    "dpw": 28412241,
+    "loss_ratio": 104.68
+   },
+   {
+    "year": 2017,
+    "dpw": 31779509,
+    "loss_ratio": 63.92
+   },
+   {
+    "year": 2018,
+    "dpw": 29953812,
+    "loss_ratio": 46.75
+   },
+   {
+    "year": 2019,
+    "dpw": 30095810,
+    "loss_ratio": 45.79
+   },
+   {
+    "year": 2020,
+    "dpw": 33987231,
+    "loss_ratio": 51.71
+   },
+   {
+    "year": 2021,
+    "dpw": 35164143,
+    "loss_ratio": 86.42
+   },
+   {
+    "year": 2022,
+    "dpw": 40129500,
+    "loss_ratio": 94.11
+   },
+   {
+    "year": 2023,
+    "dpw": 40668634,
+    "loss_ratio": 93.13
+   },
+   {
+    "year": 2024,
+    "dpw": 41993601,
+    "loss_ratio": 85.66
+   }
+  ]
+ },
+ "IA": {
+  "name": "Iowa",
+  "code": "IA",
+  "fips": "19",
+  "cap_score": 10,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 30,
+  "rating": "yellow",
+  "cap_note": "$250K cap (2017)",
+  "naic_dpw": 98797368,
+  "naic_loss_ratio": 33.89,
+  "naic_premium_per_physician": 14002,
+  "physicians": 7056,
+  "naic_2014_dpw": 67943959,
+  "pct_change_5yr": 45.4,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 82721406,
+    "loss_ratio": 43.9
+   },
+   {
+    "year": 2011,
+    "dpw": 75781289,
+    "loss_ratio": 44.09
+   },
+   {
+    "year": 2012,
+    "dpw": 73594673,
+    "loss_ratio": 61.28
+   },
+   {
+    "year": 2013,
+    "dpw": 67766165,
+    "loss_ratio": 19.87
+   },
+   {
+    "year": 2014,
+    "dpw": 68254185,
+    "loss_ratio": 26.95
+   },
+   {
+    "year": 2015,
+    "dpw": 66108812,
+    "loss_ratio": 55.86
+   },
+   {
+    "year": 2016,
+    "dpw": 66968594,
+    "loss_ratio": 62.6
+   },
+   {
+    "year": 2017,
+    "dpw": 61303635,
+    "loss_ratio": 55.86
+   },
+   {
+    "year": 2018,
+    "dpw": 62973836,
+    "loss_ratio": 131.01
+   },
+   {
+    "year": 2019,
+    "dpw": 67943959,
+    "loss_ratio": 121.31
+   },
+   {
+    "year": 2020,
+    "dpw": 74929609,
+    "loss_ratio": 107.64
+   },
+   {
+    "year": 2021,
+    "dpw": 79103530,
+    "loss_ratio": 71.16
+   },
+   {
+    "year": 2022,
+    "dpw": 75119803,
+    "loss_ratio": 100.24
+   },
+   {
+    "year": 2023,
+    "dpw": 83858935,
+    "loss_ratio": 96.25
+   },
+   {
+    "year": 2024,
+    "dpw": 98797368,
+    "loss_ratio": 33.89
+   }
+  ]
+ },
+ "ID": {
+  "name": "Idaho",
+  "code": "ID",
+  "fips": "16",
+  "cap_score": 0,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 20,
+  "rating": "green",
+  "cap_note": "$465K cap (indexed)",
+  "naic_dpw": 46171702,
+  "naic_loss_ratio": 9.95,
+  "naic_premium_per_physician": 13177,
+  "physicians": 3504,
+  "naic_2014_dpw": 34035952,
+  "pct_change_5yr": 35.7,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 36833030,
+    "loss_ratio": 69.57
+   },
+   {
+    "year": 2011,
+    "dpw": 32993589,
+    "loss_ratio": 4.4
+   },
+   {
+    "year": 2012,
+    "dpw": 30880764,
+    "loss_ratio": 39.48
+   },
+   {
+    "year": 2013,
+    "dpw": 30599395,
+    "loss_ratio": 53.54
+   },
+   {
+    "year": 2014,
+    "dpw": 31226918,
+    "loss_ratio": 64.81
+   },
+   {
+    "year": 2015,
+    "dpw": 30209847,
+    "loss_ratio": 40.49
+   },
+   {
+    "year": 2016,
+    "dpw": 31249032,
+    "loss_ratio": 68.89
+   },
+   {
+    "year": 2017,
+    "dpw": 31505488,
+    "loss_ratio": 71.33
+   },
+   {
+    "year": 2018,
+    "dpw": 31031878,
+    "loss_ratio": 74.65
+   },
+   {
+    "year": 2019,
+    "dpw": 34035952,
+    "loss_ratio": 66.29
+   },
+   {
+    "year": 2020,
+    "dpw": 34282359,
+    "loss_ratio": 69.38
+   },
+   {
+    "year": 2021,
+    "dpw": 37996446,
+    "loss_ratio": 98.77
+   },
+   {
+    "year": 2022,
+    "dpw": 42353681,
+    "loss_ratio": 60.62
+   },
+   {
+    "year": 2023,
+    "dpw": 45139299,
+    "loss_ratio": 177.05
+   },
+   {
+    "year": 2024,
+    "dpw": 46171702,
+    "loss_ratio": 9.95
+   }
+  ]
+ },
+ "IL": {
+  "name": "Illinois",
+  "code": "IL",
+  "fips": "17",
+  "cap_score": 35,
+  "naic_score": 25,
+  "litig_score": 10,
+  "total_score": 70,
+  "rating": "red",
+  "cap_note": "Cap struck (2010)",
+  "naic_dpw": 617799113,
+  "naic_loss_ratio": 65.22,
+  "naic_premium_per_physician": 16642,
+  "physicians": 37122,
+  "naic_2014_dpw": 453487349,
+  "pct_change_5yr": 36.2,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 624298457,
+    "loss_ratio": 57.61
+   },
+   {
+    "year": 2011,
+    "dpw": 606985871,
+    "loss_ratio": 48.37
+   },
+   {
+    "year": 2012,
+    "dpw": 569055046,
+    "loss_ratio": 43.85
+   },
+   {
+    "year": 2013,
+    "dpw": 542701608,
+    "loss_ratio": 47.93
+   },
+   {
+    "year": 2014,
+    "dpw": 527421729,
+    "loss_ratio": 55.67
+   },
+   {
+    "year": 2015,
+    "dpw": 499580495,
+    "loss_ratio": 73.96
+   },
+   {
+    "year": 2016,
+    "dpw": 474201263,
+    "loss_ratio": 79.73
+   },
+   {
+    "year": 2017,
+    "dpw": 442152424,
+    "loss_ratio": 73.46
+   },
+   {
+    "year": 2018,
+    "dpw": 457413998,
+    "loss_ratio": 84.52
+   },
+   {
+    "year": 2019,
+    "dpw": 453487349,
+    "loss_ratio": 94.0
+   },
+   {
+    "year": 2020,
+    "dpw": 479545825,
+    "loss_ratio": 88.57
+   },
+   {
+    "year": 2021,
+    "dpw": 507310823,
+    "loss_ratio": 74.79
+   },
+   {
+    "year": 2022,
+    "dpw": 547321058,
+    "loss_ratio": 63.93
+   },
+   {
+    "year": 2023,
+    "dpw": 583331759,
+    "loss_ratio": 89.53
+   },
+   {
+    "year": 2024,
+    "dpw": 617799113,
+    "loss_ratio": 65.22
+   }
+  ]
+ },
+ "IN": {
+  "name": "Indiana",
+  "code": "IN",
+  "fips": "18",
+  "cap_score": 0,
+  "naic_score": 15,
+  "litig_score": 0,
+  "total_score": 15,
+  "rating": "green",
+  "cap_note": "$1.8M total cap; PCF state",
+  "naic_dpw": 187147223,
+  "naic_loss_ratio": 52.53,
+  "naic_premium_per_physician": 11757,
+  "physicians": 15918,
+  "naic_2014_dpw": 127732015,
+  "pct_change_5yr": 46.5,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 124907087,
+    "loss_ratio": 45.71
+   },
+   {
+    "year": 2011,
+    "dpw": 128357925,
+    "loss_ratio": 40.78
+   },
+   {
+    "year": 2012,
+    "dpw": 118524013,
+    "loss_ratio": 60.87
+   },
+   {
+    "year": 2013,
+    "dpw": 117510411,
+    "loss_ratio": 30.22
+   },
+   {
+    "year": 2014,
+    "dpw": 120582900,
+    "loss_ratio": 55.54
+   },
+   {
+    "year": 2015,
+    "dpw": 116202413,
+    "loss_ratio": 55.42
+   },
+   {
+    "year": 2016,
+    "dpw": 113767592,
+    "loss_ratio": 58.57
+   },
+   {
+    "year": 2017,
+    "dpw": 121602559,
+    "loss_ratio": 32.76
+   },
+   {
+    "year": 2018,
+    "dpw": 124664899,
+    "loss_ratio": 64.74
+   },
+   {
+    "year": 2019,
+    "dpw": 127732015,
+    "loss_ratio": 68.55
+   },
+   {
+    "year": 2020,
+    "dpw": 137857816,
+    "loss_ratio": 67.16
+   },
+   {
+    "year": 2021,
+    "dpw": 156684587,
+    "loss_ratio": 53.76
+   },
+   {
+    "year": 2022,
+    "dpw": 165160659,
+    "loss_ratio": 76.76
+   },
+   {
+    "year": 2023,
+    "dpw": 176752755,
+    "loss_ratio": 64.0
+   },
+   {
+    "year": 2024,
+    "dpw": 187147223,
+    "loss_ratio": 52.53
+   }
+  ]
+ },
+ "KS": {
+  "name": "Kansas",
+  "code": "KS",
+  "fips": "20",
+  "cap_score": 0,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$350K cap (recently restored)",
+  "naic_dpw": 110743671,
+  "naic_loss_ratio": 78.52,
+  "naic_premium_per_physician": 16111,
+  "physicians": 6874,
+  "naic_2014_dpw": 70062613,
+  "pct_change_5yr": 58.1,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 77590617,
+    "loss_ratio": 34.62
+   },
+   {
+    "year": 2011,
+    "dpw": 76282306,
+    "loss_ratio": 27.04
+   },
+   {
+    "year": 2012,
+    "dpw": 68131368,
+    "loss_ratio": 31.49
+   },
+   {
+    "year": 2013,
+    "dpw": 64645021,
+    "loss_ratio": 54.06
+   },
+   {
+    "year": 2014,
+    "dpw": 59527375,
+    "loss_ratio": 116.55
+   },
+   {
+    "year": 2015,
+    "dpw": 61167796,
+    "loss_ratio": 40.09
+   },
+   {
+    "year": 2016,
+    "dpw": 63148345,
+    "loss_ratio": 51.34
+   },
+   {
+    "year": 2017,
+    "dpw": 62245145,
+    "loss_ratio": 50.25
+   },
+   {
+    "year": 2018,
+    "dpw": 64130518,
+    "loss_ratio": 82.93
+   },
+   {
+    "year": 2019,
+    "dpw": 70062613,
+    "loss_ratio": 67.75
+   },
+   {
+    "year": 2020,
+    "dpw": 74164679,
+    "loss_ratio": 118.76
+   },
+   {
+    "year": 2021,
+    "dpw": 85818377,
+    "loss_ratio": 83.13
+   },
+   {
+    "year": 2022,
+    "dpw": 100600396,
+    "loss_ratio": 50.62
+   },
+   {
+    "year": 2023,
+    "dpw": 101761505,
+    "loss_ratio": 39.32
+   },
+   {
+    "year": 2024,
+    "dpw": 110743671,
+    "loss_ratio": 78.52
+   }
+  ]
+ },
+ "KY": {
+  "name": "Kentucky",
+  "code": "KY",
+  "fips": "21",
+  "cap_score": 30,
+  "naic_score": 20,
+  "litig_score": 5,
+  "total_score": 55,
+  "rating": "red",
+  "cap_note": "No cap (constitutional barrier)",
+  "naic_dpw": 159049288,
+  "naic_loss_ratio": 126.53,
+  "naic_premium_per_physician": 15107,
+  "physicians": 10528,
+  "naic_2014_dpw": 111226611,
+  "pct_change_5yr": 43.0,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 146660314,
+    "loss_ratio": 39.54
+   },
+   {
+    "year": 2011,
+    "dpw": 138764485,
+    "loss_ratio": 58.76
+   },
+   {
+    "year": 2012,
+    "dpw": 127762959,
+    "loss_ratio": 76.05
+   },
+   {
+    "year": 2013,
+    "dpw": 122792641,
+    "loss_ratio": 63.99
+   },
+   {
+    "year": 2014,
+    "dpw": 107826881,
+    "loss_ratio": 79.0
+   },
+   {
+    "year": 2015,
+    "dpw": 106286274,
+    "loss_ratio": 55.19
+   },
+   {
+    "year": 2016,
+    "dpw": 103600845,
+    "loss_ratio": 86.23
+   },
+   {
+    "year": 2017,
+    "dpw": 105515100,
+    "loss_ratio": 81.06
+   },
+   {
+    "year": 2018,
+    "dpw": 115793194,
+    "loss_ratio": 99.47
+   },
+   {
+    "year": 2019,
+    "dpw": 111226611,
+    "loss_ratio": 117.24
+   },
+   {
+    "year": 2020,
+    "dpw": 126122513,
+    "loss_ratio": 52.22
+   },
+   {
+    "year": 2021,
+    "dpw": 125432243,
+    "loss_ratio": 64.18
+   },
+   {
+    "year": 2022,
+    "dpw": 133822471,
+    "loss_ratio": 76.26
+   },
+   {
+    "year": 2023,
+    "dpw": 144079195,
+    "loss_ratio": 78.3
+   },
+   {
+    "year": 2024,
+    "dpw": 159049288,
+    "loss_ratio": 126.53
+   }
+  ]
+ },
+ "LA": {
+  "name": "Louisiana",
+  "code": "LA",
+  "fips": "22",
+  "cap_score": 0,
+  "naic_score": 10,
+  "litig_score": 15,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$500K total cap; PCF state. ATRA Hellhole #4",
+  "naic_dpw": 116894932,
+  "naic_loss_ratio": 49.18,
+  "naic_premium_per_physician": 9309,
+  "physicians": 12557,
+  "naic_2014_dpw": 102077776,
+  "pct_change_5yr": 14.5,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 102663607,
+    "loss_ratio": 21.69
+   },
+   {
+    "year": 2011,
+    "dpw": 102314196,
+    "loss_ratio": 38.88
+   },
+   {
+    "year": 2012,
+    "dpw": 102179896,
+    "loss_ratio": 48.1
+   },
+   {
+    "year": 2013,
+    "dpw": 103265118,
+    "loss_ratio": 34.15
+   },
+   {
+    "year": 2014,
+    "dpw": 101395620,
+    "loss_ratio": 32.34
+   },
+   {
+    "year": 2015,
+    "dpw": 102126733,
+    "loss_ratio": 43.52
+   },
+   {
+    "year": 2016,
+    "dpw": 94693700,
+    "loss_ratio": 46.88
+   },
+   {
+    "year": 2017,
+    "dpw": 94037039,
+    "loss_ratio": 50.56
+   },
+   {
+    "year": 2018,
+    "dpw": 93124001,
+    "loss_ratio": 32.54
+   },
+   {
+    "year": 2019,
+    "dpw": 102077776,
+    "loss_ratio": 42.21
+   },
+   {
+    "year": 2020,
+    "dpw": 104040177,
+    "loss_ratio": 29.23
+   },
+   {
+    "year": 2021,
+    "dpw": 108529351,
+    "loss_ratio": 47.64
+   },
+   {
+    "year": 2022,
+    "dpw": 116079862,
+    "loss_ratio": 46.56
+   },
+   {
+    "year": 2023,
+    "dpw": 117172950,
+    "loss_ratio": 47.78
+   },
+   {
+    "year": 2024,
+    "dpw": 116894932,
+    "loss_ratio": 49.18
+   }
+  ]
+ },
+ "MA": {
+  "name": "Massachusetts",
+  "code": "MA",
+  "fips": "25",
+  "cap_score": 10,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 30,
+  "rating": "yellow",
+  "cap_note": "$500K cap",
+  "naic_dpw": 422107706,
+  "naic_loss_ratio": 74.85,
+  "naic_premium_per_physician": 13143,
+  "physicians": 32116,
+  "naic_2014_dpw": 339693279,
+  "pct_change_5yr": 24.3,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 314627751,
+    "loss_ratio": 50.27
+   },
+   {
+    "year": 2011,
+    "dpw": 314106416,
+    "loss_ratio": 40.34
+   },
+   {
+    "year": 2012,
+    "dpw": 307565195,
+    "loss_ratio": 66.15
+   },
+   {
+    "year": 2013,
+    "dpw": 306906865,
+    "loss_ratio": 53.79
+   },
+   {
+    "year": 2014,
+    "dpw": 307478585,
+    "loss_ratio": 45.64
+   },
+   {
+    "year": 2015,
+    "dpw": 300744103,
+    "loss_ratio": 54.98
+   },
+   {
+    "year": 2016,
+    "dpw": 314337122,
+    "loss_ratio": 56.29
+   },
+   {
+    "year": 2017,
+    "dpw": 313511831,
+    "loss_ratio": 76.28
+   },
+   {
+    "year": 2018,
+    "dpw": 319639705,
+    "loss_ratio": 36.07
+   },
+   {
+    "year": 2019,
+    "dpw": 339693279,
+    "loss_ratio": 71.25
+   },
+   {
+    "year": 2020,
+    "dpw": 340188725,
+    "loss_ratio": 76.73
+   },
+   {
+    "year": 2021,
+    "dpw": 353932003,
+    "loss_ratio": 70.39
+   },
+   {
+    "year": 2022,
+    "dpw": 364111035,
+    "loss_ratio": 69.54
+   },
+   {
+    "year": 2023,
+    "dpw": 383165060,
+    "loss_ratio": 64.36
+   },
+   {
+    "year": 2024,
+    "dpw": 422107706,
+    "loss_ratio": 74.85
+   }
+  ]
+ },
+ "MD": {
+  "name": "Maryland",
+  "code": "MD",
+  "fips": "24",
+  "cap_score": 10,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 30,
+  "rating": "yellow",
+  "cap_note": "$905K cap (indexed)",
+  "naic_dpw": 339515690,
+  "naic_loss_ratio": 50.81,
+  "naic_premium_per_physician": 14271,
+  "physicians": 23791,
+  "naic_2014_dpw": 300873149,
+  "pct_change_5yr": 12.8,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 283990112,
+    "loss_ratio": 54.52
+   },
+   {
+    "year": 2011,
+    "dpw": 280971476,
+    "loss_ratio": 52.37
+   },
+   {
+    "year": 2012,
+    "dpw": 283059524,
+    "loss_ratio": 79.44
+   },
+   {
+    "year": 2013,
+    "dpw": 248761508,
+    "loss_ratio": 155.85
+   },
+   {
+    "year": 2014,
+    "dpw": 273185360,
+    "loss_ratio": 59.92
+   },
+   {
+    "year": 2015,
+    "dpw": 276781880,
+    "loss_ratio": 53.22
+   },
+   {
+    "year": 2016,
+    "dpw": 283644412,
+    "loss_ratio": 72.63
+   },
+   {
+    "year": 2017,
+    "dpw": 291154630,
+    "loss_ratio": 64.76
+   },
+   {
+    "year": 2018,
+    "dpw": 286321702,
+    "loss_ratio": 60.15
+   },
+   {
+    "year": 2019,
+    "dpw": 300873149,
+    "loss_ratio": 96.33
+   },
+   {
+    "year": 2020,
+    "dpw": 310187633,
+    "loss_ratio": 69.91
+   },
+   {
+    "year": 2021,
+    "dpw": 325987726,
+    "loss_ratio": 71.23
+   },
+   {
+    "year": 2022,
+    "dpw": 372691470,
+    "loss_ratio": 56.44
+   },
+   {
+    "year": 2023,
+    "dpw": 328622883,
+    "loss_ratio": 58.16
+   },
+   {
+    "year": 2024,
+    "dpw": 339515690,
+    "loss_ratio": 50.81
+   }
+  ]
+ },
+ "ME": {
+  "name": "Maine",
+  "code": "ME",
+  "fips": "23",
+  "cap_score": 30,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 50,
+  "rating": "red",
+  "cap_note": "No cap",
+  "naic_dpw": 58937577,
+  "naic_loss_ratio": 53.22,
+  "naic_premium_per_physician": 13218,
+  "physicians": 4459,
+  "naic_2014_dpw": 52042457,
+  "pct_change_5yr": 13.2,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 50343690,
+    "loss_ratio": 43.19
+   },
+   {
+    "year": 2011,
+    "dpw": 47101680,
+    "loss_ratio": 33.97
+   },
+   {
+    "year": 2012,
+    "dpw": 46768856,
+    "loss_ratio": 60.64
+   },
+   {
+    "year": 2013,
+    "dpw": 43115347,
+    "loss_ratio": 24.28
+   },
+   {
+    "year": 2014,
+    "dpw": 41674988,
+    "loss_ratio": 30.78
+   },
+   {
+    "year": 2015,
+    "dpw": 46581284,
+    "loss_ratio": 55.36
+   },
+   {
+    "year": 2016,
+    "dpw": 45221428,
+    "loss_ratio": 72.24
+   },
+   {
+    "year": 2017,
+    "dpw": 45131154,
+    "loss_ratio": 89.31
+   },
+   {
+    "year": 2018,
+    "dpw": 40206026,
+    "loss_ratio": 81.89
+   },
+   {
+    "year": 2019,
+    "dpw": 52042457,
+    "loss_ratio": 38.0
+   },
+   {
+    "year": 2020,
+    "dpw": 50136682,
+    "loss_ratio": 60.32
+   },
+   {
+    "year": 2021,
+    "dpw": 52548069,
+    "loss_ratio": 59.58
+   },
+   {
+    "year": 2022,
+    "dpw": 52815930,
+    "loss_ratio": 57.02
+   },
+   {
+    "year": 2023,
+    "dpw": 59598162,
+    "loss_ratio": 90.56
+   },
+   {
+    "year": 2024,
+    "dpw": 58937577,
+    "loss_ratio": 53.22
+   }
+  ]
+ },
+ "MI": {
+  "name": "Michigan",
+  "code": "MI",
+  "fips": "26",
+  "cap_score": 0,
+  "naic_score": 10,
+  "litig_score": 5,
+  "total_score": 15,
+  "rating": "green",
+  "cap_note": "$580K/$1.04M cap (indexed). Watch List",
+  "naic_dpw": 264182622,
+  "naic_loss_ratio": 67.72,
+  "naic_premium_per_physician": 8794,
+  "physicians": 30040,
+  "naic_2014_dpw": 197084907,
+  "pct_change_5yr": 34.0,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 204854043,
+    "loss_ratio": 25.75
+   },
+   {
+    "year": 2011,
+    "dpw": 201800996,
+    "loss_ratio": 42.43
+   },
+   {
+    "year": 2012,
+    "dpw": 201196791,
+    "loss_ratio": 37.11
+   },
+   {
+    "year": 2013,
+    "dpw": 192896592,
+    "loss_ratio": 52.05
+   },
+   {
+    "year": 2014,
+    "dpw": 191985938,
+    "loss_ratio": 58.5
+   },
+   {
+    "year": 2015,
+    "dpw": 190549782,
+    "loss_ratio": 48.55
+   },
+   {
+    "year": 2016,
+    "dpw": 186117408,
+    "loss_ratio": 69.97
+   },
+   {
+    "year": 2017,
+    "dpw": 185714829,
+    "loss_ratio": 127.37
+   },
+   {
+    "year": 2018,
+    "dpw": 188108556,
+    "loss_ratio": 51.78
+   },
+   {
+    "year": 2019,
+    "dpw": 197084907,
+    "loss_ratio": 39.82
+   },
+   {
+    "year": 2020,
+    "dpw": 214980731,
+    "loss_ratio": 90.32
+   },
+   {
+    "year": 2021,
+    "dpw": 240334411,
+    "loss_ratio": 63.9
+   },
+   {
+    "year": 2022,
+    "dpw": 251196232,
+    "loss_ratio": 75.53
+   },
+   {
+    "year": 2023,
+    "dpw": 254250362,
+    "loss_ratio": 68.21
+   },
+   {
+    "year": 2024,
+    "dpw": 264182622,
+    "loss_ratio": 67.72
+   }
+  ]
+ },
+ "MN": {
+  "name": "Minnesota",
+  "code": "MN",
+  "fips": "27",
+  "cap_score": 20,
+  "naic_score": 5,
+  "litig_score": 0,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "No statewide cap; stable claim climate",
+  "naic_dpw": 116701374,
+  "naic_loss_ratio": 59.69,
+  "naic_premium_per_physician": 6624,
+  "physicians": 17617,
+  "naic_2014_dpw": 83486858,
+  "pct_change_5yr": 39.8,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 91352183,
+    "loss_ratio": 87.59
+   },
+   {
+    "year": 2011,
+    "dpw": 87947162,
+    "loss_ratio": 54.64
+   },
+   {
+    "year": 2012,
+    "dpw": 84933616,
+    "loss_ratio": 40.08
+   },
+   {
+    "year": 2013,
+    "dpw": 82254490,
+    "loss_ratio": 48.7
+   },
+   {
+    "year": 2014,
+    "dpw": 79444530,
+    "loss_ratio": 53.32
+   },
+   {
+    "year": 2015,
+    "dpw": 78305382,
+    "loss_ratio": 32.73
+   },
+   {
+    "year": 2016,
+    "dpw": 78626975,
+    "loss_ratio": 77.38
+   },
+   {
+    "year": 2017,
+    "dpw": 78081944,
+    "loss_ratio": 20.66
+   },
+   {
+    "year": 2018,
+    "dpw": 79408009,
+    "loss_ratio": 84.31
+   },
+   {
+    "year": 2019,
+    "dpw": 83486858,
+    "loss_ratio": 85.8
+   },
+   {
+    "year": 2020,
+    "dpw": 86786083,
+    "loss_ratio": 63.35
+   },
+   {
+    "year": 2021,
+    "dpw": 96323314,
+    "loss_ratio": 41.89
+   },
+   {
+    "year": 2022,
+    "dpw": 103419354,
+    "loss_ratio": 65.95
+   },
+   {
+    "year": 2023,
+    "dpw": 105869896,
+    "loss_ratio": 88.4
+   },
+   {
+    "year": 2024,
+    "dpw": 116701374,
+    "loss_ratio": 59.69
+   }
+  ]
+ },
+ "MO": {
+  "name": "Missouri",
+  "code": "MO",
+  "fips": "29",
+  "cap_score": 0,
+  "naic_score": 15,
+  "litig_score": 10,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$483K cap (2025). ATRA Hellhole #6 (St. Louis)",
+  "naic_dpw": 219898720,
+  "naic_loss_ratio": 74.48,
+  "naic_premium_per_physician": 12018,
+  "physicians": 18297,
+  "naic_2014_dpw": 155167220,
+  "pct_change_5yr": 41.7,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 190991047,
+    "loss_ratio": -0.11
+   },
+   {
+    "year": 2011,
+    "dpw": 176537172,
+    "loss_ratio": 32.78
+   },
+   {
+    "year": 2012,
+    "dpw": 161399270,
+    "loss_ratio": 39.8
+   },
+   {
+    "year": 2013,
+    "dpw": 151984768,
+    "loss_ratio": 33.46
+   },
+   {
+    "year": 2014,
+    "dpw": 144753748,
+    "loss_ratio": 58.31
+   },
+   {
+    "year": 2015,
+    "dpw": 141805998,
+    "loss_ratio": 41.2
+   },
+   {
+    "year": 2016,
+    "dpw": 143205617,
+    "loss_ratio": 80.61
+   },
+   {
+    "year": 2017,
+    "dpw": 141194309,
+    "loss_ratio": 81.12
+   },
+   {
+    "year": 2018,
+    "dpw": 149573910,
+    "loss_ratio": 71.25
+   },
+   {
+    "year": 2019,
+    "dpw": 155167220,
+    "loss_ratio": 98.37
+   },
+   {
+    "year": 2020,
+    "dpw": 167163789,
+    "loss_ratio": 82.19
+   },
+   {
+    "year": 2021,
+    "dpw": 198552555,
+    "loss_ratio": 70.51
+   },
+   {
+    "year": 2022,
+    "dpw": 202957636,
+    "loss_ratio": 82.77
+   },
+   {
+    "year": 2023,
+    "dpw": 225581554,
+    "loss_ratio": 55.62
+   },
+   {
+    "year": 2024,
+    "dpw": 219898720,
+    "loss_ratio": 74.48
+   }
+  ]
+ },
+ "MS": {
+  "name": "Mississippi",
+  "code": "MS",
+  "fips": "28",
+  "cap_score": 0,
+  "naic_score": 15,
+  "litig_score": 0,
+  "total_score": 15,
+  "rating": "green",
+  "cap_note": "$500K cap",
+  "naic_dpw": 65464410,
+  "naic_loss_ratio": 61.26,
+  "naic_premium_per_physician": 11177,
+  "physicians": 5857,
+  "naic_2014_dpw": 45160806,
+  "pct_change_5yr": 45.0,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 56065254,
+    "loss_ratio": 47.11
+   },
+   {
+    "year": 2011,
+    "dpw": 59532616,
+    "loss_ratio": 41.94
+   },
+   {
+    "year": 2012,
+    "dpw": 52333368,
+    "loss_ratio": 46.04
+   },
+   {
+    "year": 2013,
+    "dpw": 54991505,
+    "loss_ratio": 43.1
+   },
+   {
+    "year": 2014,
+    "dpw": 49971290,
+    "loss_ratio": 6.15
+   },
+   {
+    "year": 2015,
+    "dpw": 48353816,
+    "loss_ratio": 41.81
+   },
+   {
+    "year": 2016,
+    "dpw": 47675365,
+    "loss_ratio": 23.97
+   },
+   {
+    "year": 2017,
+    "dpw": 43561538,
+    "loss_ratio": 34.82
+   },
+   {
+    "year": 2018,
+    "dpw": 47645014,
+    "loss_ratio": 26.97
+   },
+   {
+    "year": 2019,
+    "dpw": 45160806,
+    "loss_ratio": 40.02
+   },
+   {
+    "year": 2020,
+    "dpw": 51281383,
+    "loss_ratio": 60.82
+   },
+   {
+    "year": 2021,
+    "dpw": 55591251,
+    "loss_ratio": 60.0
+   },
+   {
+    "year": 2022,
+    "dpw": 58040149,
+    "loss_ratio": 60.49
+   },
+   {
+    "year": 2023,
+    "dpw": 65923326,
+    "loss_ratio": 35.7
+   },
+   {
+    "year": 2024,
+    "dpw": 65464410,
+    "loss_ratio": 61.26
+   }
+  ]
+ },
+ "MT": {
+  "name": "Montana",
+  "code": "MT",
+  "fips": "30",
+  "cap_score": 0,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$250K cap",
+  "naic_dpw": 46179054,
+  "naic_loss_ratio": 185.15,
+  "naic_premium_per_physician": 16792,
+  "physicians": 2750,
+  "naic_2014_dpw": 35645934,
+  "pct_change_5yr": 29.5,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 42758520,
+    "loss_ratio": 38.67
+   },
+   {
+    "year": 2011,
+    "dpw": 42709825,
+    "loss_ratio": 61.89
+   },
+   {
+    "year": 2012,
+    "dpw": 41492137,
+    "loss_ratio": 28.7
+   },
+   {
+    "year": 2013,
+    "dpw": 40562957,
+    "loss_ratio": 56.74
+   },
+   {
+    "year": 2014,
+    "dpw": 41458338,
+    "loss_ratio": 50.08
+   },
+   {
+    "year": 2015,
+    "dpw": 41208081,
+    "loss_ratio": 68.97
+   },
+   {
+    "year": 2016,
+    "dpw": 37383516,
+    "loss_ratio": 80.22
+   },
+   {
+    "year": 2017,
+    "dpw": 47973631,
+    "loss_ratio": 117.58
+   },
+   {
+    "year": 2018,
+    "dpw": 44626592,
+    "loss_ratio": 78.18
+   },
+   {
+    "year": 2019,
+    "dpw": 35645934,
+    "loss_ratio": 71.16
+   },
+   {
+    "year": 2020,
+    "dpw": 38047894,
+    "loss_ratio": 74.34
+   },
+   {
+    "year": 2021,
+    "dpw": 40360337,
+    "loss_ratio": 65.78
+   },
+   {
+    "year": 2022,
+    "dpw": 40894246,
+    "loss_ratio": 62.46
+   },
+   {
+    "year": 2023,
+    "dpw": 42184383,
+    "loss_ratio": 98.8
+   },
+   {
+    "year": 2024,
+    "dpw": 46179054,
+    "loss_ratio": 185.15
+   }
+  ]
+ },
+ "NC": {
+  "name": "N. Carolina",
+  "code": "NC",
+  "fips": "37",
+  "cap_score": 0,
+  "naic_score": 10,
+  "litig_score": 0,
+  "total_score": 10,
+  "rating": "green",
+  "cap_note": "$656K cap (indexed)",
+  "naic_dpw": 225122731,
+  "naic_loss_ratio": 45.08,
+  "naic_premium_per_physician": 8142,
+  "physicians": 27650,
+  "naic_2014_dpw": 199473031,
+  "pct_change_5yr": 12.9,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 244658185,
+    "loss_ratio": 36.76
+   },
+   {
+    "year": 2011,
+    "dpw": 226826114,
+    "loss_ratio": 37.86
+   },
+   {
+    "year": 2012,
+    "dpw": 210370797,
+    "loss_ratio": 48.25
+   },
+   {
+    "year": 2013,
+    "dpw": 198776291,
+    "loss_ratio": 26.04
+   },
+   {
+    "year": 2014,
+    "dpw": 184892340,
+    "loss_ratio": 46.33
+   },
+   {
+    "year": 2015,
+    "dpw": 180681804,
+    "loss_ratio": 41.51
+   },
+   {
+    "year": 2016,
+    "dpw": 164076457,
+    "loss_ratio": 23.57
+   },
+   {
+    "year": 2017,
+    "dpw": 165578661,
+    "loss_ratio": 27.71
+   },
+   {
+    "year": 2018,
+    "dpw": 167625460,
+    "loss_ratio": 40.89
+   },
+   {
+    "year": 2019,
+    "dpw": 199473031,
+    "loss_ratio": 60.36
+   },
+   {
+    "year": 2020,
+    "dpw": 178198490,
+    "loss_ratio": 61.92
+   },
+   {
+    "year": 2021,
+    "dpw": 187956381,
+    "loss_ratio": 49.6
+   },
+   {
+    "year": 2022,
+    "dpw": 199341020,
+    "loss_ratio": 50.25
+   },
+   {
+    "year": 2023,
+    "dpw": 205828259,
+    "loss_ratio": 41.23
+   },
+   {
+    "year": 2024,
+    "dpw": 225122731,
+    "loss_ratio": 45.08
+   }
+  ]
+ },
+ "ND": {
+  "name": "N. Dakota",
+  "code": "ND",
+  "fips": "38",
+  "cap_score": 0,
+  "naic_score": 5,
+  "litig_score": 0,
+  "total_score": 5,
+  "rating": "green",
+  "cap_note": "$500K cap",
+  "naic_dpw": 11883917,
+  "naic_loss_ratio": 21.66,
+  "naic_premium_per_physician": 6508,
+  "physicians": 1826,
+  "naic_2014_dpw": 11782126,
+  "pct_change_5yr": 0.9,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 14015796,
+    "loss_ratio": -19.13
+   },
+   {
+    "year": 2011,
+    "dpw": 13359083,
+    "loss_ratio": 66.03
+   },
+   {
+    "year": 2012,
+    "dpw": 11387597,
+    "loss_ratio": 18.39
+   },
+   {
+    "year": 2013,
+    "dpw": 11400104,
+    "loss_ratio": 23.41
+   },
+   {
+    "year": 2014,
+    "dpw": 12569065,
+    "loss_ratio": 43.73
+   },
+   {
+    "year": 2015,
+    "dpw": 9753915,
+    "loss_ratio": 103.78
+   },
+   {
+    "year": 2016,
+    "dpw": 9588027,
+    "loss_ratio": 139.59
+   },
+   {
+    "year": 2017,
+    "dpw": 9424312,
+    "loss_ratio": -347.42
+   },
+   {
+    "year": 2018,
+    "dpw": 9921256,
+    "loss_ratio": 93.38
+   },
+   {
+    "year": 2019,
+    "dpw": 11782126,
+    "loss_ratio": 27.38
+   },
+   {
+    "year": 2020,
+    "dpw": 11034731,
+    "loss_ratio": 74.67
+   },
+   {
+    "year": 2021,
+    "dpw": 12586579,
+    "loss_ratio": 57.64
+   },
+   {
+    "year": 2022,
+    "dpw": 13869168,
+    "loss_ratio": 68.46
+   },
+   {
+    "year": 2023,
+    "dpw": 11039284,
+    "loss_ratio": 101.2
+   },
+   {
+    "year": 2024,
+    "dpw": 11883917,
+    "loss_ratio": 21.66
+   }
+  ]
+ },
+ "NE": {
+  "name": "Nebraska",
+  "code": "NE",
+  "fips": "31",
+  "cap_score": 0,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 20,
+  "rating": "green",
+  "cap_note": "$2.25M total cap; PCF state",
+  "naic_dpw": 75935078,
+  "naic_loss_ratio": 76.96,
+  "naic_premium_per_physician": 15754,
+  "physicians": 4820,
+  "naic_2014_dpw": 34154634,
+  "pct_change_5yr": 122.3,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 36885608,
+    "loss_ratio": 39.06
+   },
+   {
+    "year": 2011,
+    "dpw": 36378230,
+    "loss_ratio": 57.38
+   },
+   {
+    "year": 2012,
+    "dpw": 35474134,
+    "loss_ratio": 42.43
+   },
+   {
+    "year": 2013,
+    "dpw": 36708369,
+    "loss_ratio": 64.09
+   },
+   {
+    "year": 2014,
+    "dpw": 35029783,
+    "loss_ratio": 47.41
+   },
+   {
+    "year": 2015,
+    "dpw": 33283765,
+    "loss_ratio": 78.52
+   },
+   {
+    "year": 2016,
+    "dpw": 31723984,
+    "loss_ratio": 73.01
+   },
+   {
+    "year": 2017,
+    "dpw": 32097142,
+    "loss_ratio": 94.98
+   },
+   {
+    "year": 2018,
+    "dpw": 33750875,
+    "loss_ratio": 87.86
+   },
+   {
+    "year": 2019,
+    "dpw": 34154634,
+    "loss_ratio": 107.76
+   },
+   {
+    "year": 2020,
+    "dpw": 37192620,
+    "loss_ratio": 97.14
+   },
+   {
+    "year": 2021,
+    "dpw": 45735164,
+    "loss_ratio": 80.44
+   },
+   {
+    "year": 2022,
+    "dpw": 52923341,
+    "loss_ratio": 66.63
+   },
+   {
+    "year": 2023,
+    "dpw": 65564012,
+    "loss_ratio": 42.96
+   },
+   {
+    "year": 2024,
+    "dpw": 75935078,
+    "loss_ratio": 76.96
+   }
+  ]
+ },
+ "NH": {
+  "name": "N. Hampshire",
+  "code": "NH",
+  "fips": "33",
+  "cap_score": 35,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 55,
+  "rating": "red",
+  "cap_note": "Cap struck (1980)",
+  "naic_dpw": 65243926,
+  "naic_loss_ratio": 23.78,
+  "naic_premium_per_physician": 14859,
+  "physicians": 4391,
+  "naic_2014_dpw": 48725755,
+  "pct_change_5yr": 33.9,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 41838997,
+    "loss_ratio": 57.95
+   },
+   {
+    "year": 2011,
+    "dpw": 38065299,
+    "loss_ratio": 55.36
+   },
+   {
+    "year": 2012,
+    "dpw": 39145975,
+    "loss_ratio": 126.28
+   },
+   {
+    "year": 2013,
+    "dpw": 38509844,
+    "loss_ratio": 52.38
+   },
+   {
+    "year": 2014,
+    "dpw": 38551869,
+    "loss_ratio": 71.39
+   },
+   {
+    "year": 2015,
+    "dpw": 37783518,
+    "loss_ratio": 74.47
+   },
+   {
+    "year": 2016,
+    "dpw": 64689156,
+    "loss_ratio": 71.36
+   },
+   {
+    "year": 2017,
+    "dpw": 39972190,
+    "loss_ratio": 135.01
+   },
+   {
+    "year": 2018,
+    "dpw": 45049416,
+    "loss_ratio": 100.73
+   },
+   {
+    "year": 2019,
+    "dpw": 48725755,
+    "loss_ratio": 71.31
+   },
+   {
+    "year": 2020,
+    "dpw": 55147293,
+    "loss_ratio": 112.56
+   },
+   {
+    "year": 2021,
+    "dpw": 54589824,
+    "loss_ratio": 80.46
+   },
+   {
+    "year": 2022,
+    "dpw": 58982291,
+    "loss_ratio": 103.16
+   },
+   {
+    "year": 2023,
+    "dpw": 54290080,
+    "loss_ratio": 37.01
+   },
+   {
+    "year": 2024,
+    "dpw": 65243926,
+    "loss_ratio": 23.78
+   }
+  ]
+ },
+ "NJ": {
+  "name": "New Jersey",
+  "code": "NJ",
+  "fips": "34",
+  "cap_score": 30,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 55,
+  "rating": "red",
+  "cap_note": "No cap",
+  "naic_dpw": 579534284,
+  "naic_loss_ratio": 78.29,
+  "naic_premium_per_physician": 20823,
+  "physicians": 27832,
+  "naic_2014_dpw": 419455652,
+  "pct_change_5yr": 38.2,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 509562388,
+    "loss_ratio": 72.6
+   },
+   {
+    "year": 2011,
+    "dpw": 494516802,
+    "loss_ratio": 53.71
+   },
+   {
+    "year": 2012,
+    "dpw": 485358043,
+    "loss_ratio": 61.9
+   },
+   {
+    "year": 2013,
+    "dpw": 461374957,
+    "loss_ratio": 68.99
+   },
+   {
+    "year": 2014,
+    "dpw": 456519144,
+    "loss_ratio": 74.73
+   },
+   {
+    "year": 2015,
+    "dpw": 423483076,
+    "loss_ratio": 72.94
+   },
+   {
+    "year": 2016,
+    "dpw": 418525410,
+    "loss_ratio": 74.83
+   },
+   {
+    "year": 2017,
+    "dpw": 403195731,
+    "loss_ratio": 41.42
+   },
+   {
+    "year": 2018,
+    "dpw": 397398148,
+    "loss_ratio": 51.66
+   },
+   {
+    "year": 2019,
+    "dpw": 419455652,
+    "loss_ratio": 68.54
+   },
+   {
+    "year": 2020,
+    "dpw": 433606325,
+    "loss_ratio": 82.56
+   },
+   {
+    "year": 2021,
+    "dpw": 509293517,
+    "loss_ratio": 79.43
+   },
+   {
+    "year": 2022,
+    "dpw": 523089388,
+    "loss_ratio": 73.94
+   },
+   {
+    "year": 2023,
+    "dpw": 548652713,
+    "loss_ratio": 59.31
+   },
+   {
+    "year": 2024,
+    "dpw": 579534284,
+    "loss_ratio": 78.29
+   }
+  ]
+ },
+ "NM": {
+  "name": "New Mexico",
+  "code": "NM",
+  "fips": "35",
+  "cap_score": 10,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 35,
+  "rating": "yellow",
+  "cap_note": "$600K cap; PCF state",
+  "naic_dpw": 96202072,
+  "naic_loss_ratio": 122.77,
+  "naic_premium_per_physician": 18258,
+  "physicians": 5269,
+  "naic_2014_dpw": 59982966,
+  "pct_change_5yr": 60.4,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 50177642,
+    "loss_ratio": 73.76
+   },
+   {
+    "year": 2011,
+    "dpw": 56106167,
+    "loss_ratio": 89.95
+   },
+   {
+    "year": 2012,
+    "dpw": 49298834,
+    "loss_ratio": 104.41
+   },
+   {
+    "year": 2013,
+    "dpw": 51897178,
+    "loss_ratio": 87.01
+   },
+   {
+    "year": 2014,
+    "dpw": 51928643,
+    "loss_ratio": 145.72
+   },
+   {
+    "year": 2015,
+    "dpw": 51208479,
+    "loss_ratio": 107.46
+   },
+   {
+    "year": 2016,
+    "dpw": 52428957,
+    "loss_ratio": 108.81
+   },
+   {
+    "year": 2017,
+    "dpw": 58340024,
+    "loss_ratio": 132.84
+   },
+   {
+    "year": 2018,
+    "dpw": 57810951,
+    "loss_ratio": 163.09
+   },
+   {
+    "year": 2019,
+    "dpw": 59982966,
+    "loss_ratio": 155.81
+   },
+   {
+    "year": 2020,
+    "dpw": 60105881,
+    "loss_ratio": 161.88
+   },
+   {
+    "year": 2021,
+    "dpw": 60610586,
+    "loss_ratio": 139.84
+   },
+   {
+    "year": 2022,
+    "dpw": 67610521,
+    "loss_ratio": 164.78
+   },
+   {
+    "year": 2023,
+    "dpw": 83901987,
+    "loss_ratio": 149.47
+   },
+   {
+    "year": 2024,
+    "dpw": 96202072,
+    "loss_ratio": 122.77
+   }
+  ]
+ },
+ "NV": {
+  "name": "Nevada",
+  "code": "NV",
+  "fips": "32",
+  "cap_score": 0,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$430K cap (2024)",
+  "naic_dpw": 115647709,
+  "naic_loss_ratio": 47.76,
+  "naic_premium_per_physician": 17181,
+  "physicians": 6731,
+  "naic_2014_dpw": 74560272,
+  "pct_change_5yr": 55.1,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 89240677,
+    "loss_ratio": 39.41
+   },
+   {
+    "year": 2011,
+    "dpw": 85429885,
+    "loss_ratio": 47.31
+   },
+   {
+    "year": 2012,
+    "dpw": 81782641,
+    "loss_ratio": 8.03
+   },
+   {
+    "year": 2013,
+    "dpw": 80840818,
+    "loss_ratio": 76.38
+   },
+   {
+    "year": 2014,
+    "dpw": 73504895,
+    "loss_ratio": 57.97
+   },
+   {
+    "year": 2015,
+    "dpw": 71349927,
+    "loss_ratio": 77.76
+   },
+   {
+    "year": 2016,
+    "dpw": 69771603,
+    "loss_ratio": 47.54
+   },
+   {
+    "year": 2017,
+    "dpw": 64881875,
+    "loss_ratio": 63.14
+   },
+   {
+    "year": 2018,
+    "dpw": 65470789,
+    "loss_ratio": 52.19
+   },
+   {
+    "year": 2019,
+    "dpw": 74560272,
+    "loss_ratio": 93.44
+   },
+   {
+    "year": 2020,
+    "dpw": 79951232,
+    "loss_ratio": 83.37
+   },
+   {
+    "year": 2021,
+    "dpw": 94022779,
+    "loss_ratio": 73.06
+   },
+   {
+    "year": 2022,
+    "dpw": 99797551,
+    "loss_ratio": 42.7
+   },
+   {
+    "year": 2023,
+    "dpw": 106627634,
+    "loss_ratio": 88.76
+   },
+   {
+    "year": 2024,
+    "dpw": 115647709,
+    "loss_ratio": 47.76
+   }
+  ]
+ },
+ "NY": {
+  "name": "New York",
+  "code": "NY",
+  "fips": "36",
+  "cap_score": 35,
+  "naic_score": 25,
+  "litig_score": 15,
+  "total_score": 75,
+  "rating": "red",
+  "cap_note": "No cap. NYC ATRA Hellhole #2",
+  "naic_dpw": 1789816516,
+  "naic_loss_ratio": 76.99,
+  "naic_premium_per_physician": 23628,
+  "physicians": 75749,
+  "naic_2014_dpw": 1585064938,
+  "pct_change_5yr": 12.9,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 1690062746,
+    "loss_ratio": 82.53
+   },
+   {
+    "year": 2011,
+    "dpw": 1668253592,
+    "loss_ratio": 91.68
+   },
+   {
+    "year": 2012,
+    "dpw": 1672174738,
+    "loss_ratio": 90.78
+   },
+   {
+    "year": 2013,
+    "dpw": 1661145481,
+    "loss_ratio": 71.23
+   },
+   {
+    "year": 2014,
+    "dpw": 1735782804,
+    "loss_ratio": 72.85
+   },
+   {
+    "year": 2015,
+    "dpw": 1651905908,
+    "loss_ratio": 84.4
+   },
+   {
+    "year": 2016,
+    "dpw": 1629216038,
+    "loss_ratio": 85.6
+   },
+   {
+    "year": 2017,
+    "dpw": 1549238557,
+    "loss_ratio": 77.85
+   },
+   {
+    "year": 2018,
+    "dpw": 1611944697,
+    "loss_ratio": 62.91
+   },
+   {
+    "year": 2019,
+    "dpw": 1585064938,
+    "loss_ratio": 64.65
+   },
+   {
+    "year": 2020,
+    "dpw": 1566261847,
+    "loss_ratio": 84.11
+   },
+   {
+    "year": 2021,
+    "dpw": 1676001054,
+    "loss_ratio": 92.86
+   },
+   {
+    "year": 2022,
+    "dpw": 1764609337,
+    "loss_ratio": 87.92
+   },
+   {
+    "year": 2023,
+    "dpw": 1778014343,
+    "loss_ratio": 87.52
+   },
+   {
+    "year": 2024,
+    "dpw": 1789816516,
+    "loss_ratio": 76.99
+   }
+  ]
+ },
+ "OH": {
+  "name": "Ohio",
+  "code": "OH",
+  "fips": "39",
+  "cap_score": 10,
+  "naic_score": 10,
+  "litig_score": 0,
+  "total_score": 20,
+  "rating": "green",
+  "cap_note": "$350K cap with carve-outs",
+  "naic_dpw": 287471737,
+  "naic_loss_ratio": 36.56,
+  "naic_premium_per_physician": 8136,
+  "physicians": 35333,
+  "naic_2014_dpw": 236477511,
+  "pct_change_5yr": 21.6,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 358917949,
+    "loss_ratio": 18.98
+   },
+   {
+    "year": 2011,
+    "dpw": 333348477,
+    "loss_ratio": 27.38
+   },
+   {
+    "year": 2012,
+    "dpw": 323358275,
+    "loss_ratio": 22.17
+   },
+   {
+    "year": 2013,
+    "dpw": 316947600,
+    "loss_ratio": 28.14
+   },
+   {
+    "year": 2014,
+    "dpw": 293886783,
+    "loss_ratio": 42.51
+   },
+   {
+    "year": 2015,
+    "dpw": 265800662,
+    "loss_ratio": 21.53
+   },
+   {
+    "year": 2016,
+    "dpw": 231047583,
+    "loss_ratio": 20.78
+   },
+   {
+    "year": 2017,
+    "dpw": 228850304,
+    "loss_ratio": 36.81
+   },
+   {
+    "year": 2018,
+    "dpw": 220685030,
+    "loss_ratio": 46.09
+   },
+   {
+    "year": 2019,
+    "dpw": 236477511,
+    "loss_ratio": 42.62
+   },
+   {
+    "year": 2020,
+    "dpw": 250825955,
+    "loss_ratio": 37.66
+   },
+   {
+    "year": 2021,
+    "dpw": 265742497,
+    "loss_ratio": 37.64
+   },
+   {
+    "year": 2022,
+    "dpw": 265072394,
+    "loss_ratio": 71.51
+   },
+   {
+    "year": 2023,
+    "dpw": 273472044,
+    "loss_ratio": 35.52
+   },
+   {
+    "year": 2024,
+    "dpw": 287471737,
+    "loss_ratio": 36.56
+   }
+  ]
+ },
+ "OK": {
+  "name": "Oklahoma",
+  "code": "OK",
+  "fips": "40",
+  "cap_score": 30,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 50,
+  "rating": "red",
+  "cap_note": "Cap struck (2019)",
+  "naic_dpw": 124492479,
+  "naic_loss_ratio": 73.34,
+  "naic_premium_per_physician": 15012,
+  "physicians": 8293,
+  "naic_2014_dpw": 97851406,
+  "pct_change_5yr": 27.2,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 131228152,
+    "loss_ratio": 75.45
+   },
+   {
+    "year": 2011,
+    "dpw": 117886425,
+    "loss_ratio": 62.38
+   },
+   {
+    "year": 2012,
+    "dpw": 114630448,
+    "loss_ratio": 47.57
+   },
+   {
+    "year": 2013,
+    "dpw": 112386722,
+    "loss_ratio": 52.25
+   },
+   {
+    "year": 2014,
+    "dpw": 100774535,
+    "loss_ratio": 55.85
+   },
+   {
+    "year": 2015,
+    "dpw": 99583408,
+    "loss_ratio": 76.36
+   },
+   {
+    "year": 2016,
+    "dpw": 94755270,
+    "loss_ratio": 83.58
+   },
+   {
+    "year": 2017,
+    "dpw": 95902060,
+    "loss_ratio": 53.36
+   },
+   {
+    "year": 2018,
+    "dpw": 96421978,
+    "loss_ratio": 67.87
+   },
+   {
+    "year": 2019,
+    "dpw": 97851406,
+    "loss_ratio": 79.65
+   },
+   {
+    "year": 2020,
+    "dpw": 105969998,
+    "loss_ratio": 68.44
+   },
+   {
+    "year": 2021,
+    "dpw": 115994249,
+    "loss_ratio": 61.45
+   },
+   {
+    "year": 2022,
+    "dpw": 116424088,
+    "loss_ratio": 73.46
+   },
+   {
+    "year": 2023,
+    "dpw": 119667894,
+    "loss_ratio": 72.58
+   },
+   {
+    "year": 2024,
+    "dpw": 124492479,
+    "loss_ratio": 73.34
+   }
+  ]
+ },
+ "OR": {
+  "name": "Oregon",
+  "code": "OR",
+  "fips": "41",
+  "cap_score": 30,
+  "naic_score": 10,
+  "litig_score": 0,
+  "total_score": 40,
+  "rating": "yellow",
+  "cap_note": "Caps struck",
+  "naic_dpw": 125620376,
+  "naic_loss_ratio": 83.64,
+  "naic_premium_per_physician": 9570,
+  "physicians": 13127,
+  "naic_2014_dpw": 91192671,
+  "pct_change_5yr": 37.8,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 95807911,
+    "loss_ratio": 26.77
+   },
+   {
+    "year": 2011,
+    "dpw": 97038155,
+    "loss_ratio": 44.33
+   },
+   {
+    "year": 2012,
+    "dpw": 93012574,
+    "loss_ratio": 71.06
+   },
+   {
+    "year": 2013,
+    "dpw": 92260020,
+    "loss_ratio": 88.07
+   },
+   {
+    "year": 2014,
+    "dpw": 91246464,
+    "loss_ratio": 69.49
+   },
+   {
+    "year": 2015,
+    "dpw": 93202383,
+    "loss_ratio": 88.86
+   },
+   {
+    "year": 2016,
+    "dpw": 91826306,
+    "loss_ratio": 77.19
+   },
+   {
+    "year": 2017,
+    "dpw": 91341796,
+    "loss_ratio": 43.0
+   },
+   {
+    "year": 2018,
+    "dpw": 86896102,
+    "loss_ratio": 60.36
+   },
+   {
+    "year": 2019,
+    "dpw": 91192671,
+    "loss_ratio": 111.51
+   },
+   {
+    "year": 2020,
+    "dpw": 97347544,
+    "loss_ratio": 103.4
+   },
+   {
+    "year": 2021,
+    "dpw": 107285798,
+    "loss_ratio": 70.67
+   },
+   {
+    "year": 2022,
+    "dpw": 116605298,
+    "loss_ratio": 111.26
+   },
+   {
+    "year": 2023,
+    "dpw": 120202823,
+    "loss_ratio": 105.98
+   },
+   {
+    "year": 2024,
+    "dpw": 125620376,
+    "loss_ratio": 83.64
+   }
+  ]
+ },
+ "PA": {
+  "name": "Pennsylvania",
+  "code": "PA",
+  "fips": "42",
+  "cap_score": 35,
+  "naic_score": 25,
+  "litig_score": 10,
+  "total_score": 70,
+  "rating": "red",
+  "cap_note": "No cap (Article III \u00a718). Philly ATRA Hellhole #5",
+  "naic_dpw": 911825997,
+  "naic_loss_ratio": 97.48,
+  "naic_premium_per_physician": 21684,
+  "physicians": 42051,
+  "naic_2014_dpw": 719832672,
+  "pct_change_5yr": 26.7,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 726053577,
+    "loss_ratio": 64.53
+   },
+   {
+    "year": 2011,
+    "dpw": 707463046,
+    "loss_ratio": 68.8
+   },
+   {
+    "year": 2012,
+    "dpw": 705849379,
+    "loss_ratio": 60.92
+   },
+   {
+    "year": 2013,
+    "dpw": 693933213,
+    "loss_ratio": 74.3
+   },
+   {
+    "year": 2014,
+    "dpw": 654086726,
+    "loss_ratio": 68.05
+   },
+   {
+    "year": 2015,
+    "dpw": 655077332,
+    "loss_ratio": 66.77
+   },
+   {
+    "year": 2016,
+    "dpw": 684053209,
+    "loss_ratio": 89.59
+   },
+   {
+    "year": 2017,
+    "dpw": 646129908,
+    "loss_ratio": 87.63
+   },
+   {
+    "year": 2018,
+    "dpw": 660503520,
+    "loss_ratio": 87.89
+   },
+   {
+    "year": 2019,
+    "dpw": 719832672,
+    "loss_ratio": 77.55
+   },
+   {
+    "year": 2020,
+    "dpw": 757008915,
+    "loss_ratio": 83.98
+   },
+   {
+    "year": 2021,
+    "dpw": 783518812,
+    "loss_ratio": 81.18
+   },
+   {
+    "year": 2022,
+    "dpw": 912599620,
+    "loss_ratio": 88.13
+   },
+   {
+    "year": 2023,
+    "dpw": 841103404,
+    "loss_ratio": 87.04
+   },
+   {
+    "year": 2024,
+    "dpw": 911825997,
+    "loss_ratio": 97.48
+   }
+  ]
+ },
+ "RI": {
+  "name": "Rhode Island",
+  "code": "RI",
+  "fips": "44",
+  "cap_score": 30,
+  "naic_score": 15,
+  "litig_score": 0,
+  "total_score": 45,
+  "rating": "yellow",
+  "cap_note": "No cap",
+  "naic_dpw": 43815258,
+  "naic_loss_ratio": 120.19,
+  "naic_premium_per_physician": 10784,
+  "physicians": 4063,
+  "naic_2014_dpw": 31587962,
+  "pct_change_5yr": 38.7,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 47082730,
+    "loss_ratio": 86.86
+   },
+   {
+    "year": 2011,
+    "dpw": 38559054,
+    "loss_ratio": 61.33
+   },
+   {
+    "year": 2012,
+    "dpw": 42721218,
+    "loss_ratio": 129.04
+   },
+   {
+    "year": 2013,
+    "dpw": 43397760,
+    "loss_ratio": 78.78
+   },
+   {
+    "year": 2014,
+    "dpw": 38622814,
+    "loss_ratio": 63.53
+   },
+   {
+    "year": 2015,
+    "dpw": 31129493,
+    "loss_ratio": 123.04
+   },
+   {
+    "year": 2016,
+    "dpw": 29171748,
+    "loss_ratio": 149.11
+   },
+   {
+    "year": 2017,
+    "dpw": 28148571,
+    "loss_ratio": 66.08
+   },
+   {
+    "year": 2018,
+    "dpw": 27831845,
+    "loss_ratio": 149.52
+   },
+   {
+    "year": 2019,
+    "dpw": 31587962,
+    "loss_ratio": 71.46
+   },
+   {
+    "year": 2020,
+    "dpw": 31420680,
+    "loss_ratio": 62.14
+   },
+   {
+    "year": 2021,
+    "dpw": 36147768,
+    "loss_ratio": 95.95
+   },
+   {
+    "year": 2022,
+    "dpw": 39945787,
+    "loss_ratio": 151.56
+   },
+   {
+    "year": 2023,
+    "dpw": 38570830,
+    "loss_ratio": 74.04
+   },
+   {
+    "year": 2024,
+    "dpw": 43815258,
+    "loss_ratio": 120.19
+   }
+  ]
+ },
+ "SC": {
+  "name": "S. Carolina",
+  "code": "SC",
+  "fips": "45",
+  "cap_score": 10,
+  "naic_score": 10,
+  "litig_score": 15,
+  "total_score": 35,
+  "rating": "yellow",
+  "cap_note": "$461K cap. ATRA Hellhole #3 (asbestos)",
+  "naic_dpw": 98262313,
+  "naic_loss_ratio": -1.15,
+  "naic_premium_per_physician": 8056,
+  "physicians": 12197,
+  "naic_2014_dpw": 80054215,
+  "pct_change_5yr": 22.7,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 64445936,
+    "loss_ratio": 25.64
+   },
+   {
+    "year": 2011,
+    "dpw": 61751406,
+    "loss_ratio": 73.9
+   },
+   {
+    "year": 2012,
+    "dpw": 61701972,
+    "loss_ratio": 66.15
+   },
+   {
+    "year": 2013,
+    "dpw": 64444588,
+    "loss_ratio": 47.64
+   },
+   {
+    "year": 2014,
+    "dpw": 64526978,
+    "loss_ratio": 88.14
+   },
+   {
+    "year": 2015,
+    "dpw": 65246213,
+    "loss_ratio": 112.09
+   },
+   {
+    "year": 2016,
+    "dpw": 64606242,
+    "loss_ratio": 118.66
+   },
+   {
+    "year": 2017,
+    "dpw": 73064464,
+    "loss_ratio": 118.81
+   },
+   {
+    "year": 2018,
+    "dpw": 68962357,
+    "loss_ratio": 98.86
+   },
+   {
+    "year": 2019,
+    "dpw": 80054215,
+    "loss_ratio": 81.47
+   },
+   {
+    "year": 2020,
+    "dpw": 83550522,
+    "loss_ratio": 112.35
+   },
+   {
+    "year": 2021,
+    "dpw": 95407535,
+    "loss_ratio": 119.15
+   },
+   {
+    "year": 2022,
+    "dpw": 90554975,
+    "loss_ratio": 82.17
+   },
+   {
+    "year": 2023,
+    "dpw": 97322987,
+    "loss_ratio": 116.49
+   },
+   {
+    "year": 2024,
+    "dpw": 98262313,
+    "loss_ratio": -1.15
+   }
+  ]
+ },
+ "SD": {
+  "name": "S. Dakota",
+  "code": "SD",
+  "fips": "46",
+  "cap_score": 0,
+  "naic_score": 10,
+  "litig_score": 0,
+  "total_score": 10,
+  "rating": "green",
+  "cap_note": "$500K cap",
+  "naic_dpw": 20842296,
+  "naic_loss_ratio": 15.48,
+  "naic_premium_per_physician": 9414,
+  "physicians": 2214,
+  "naic_2014_dpw": 15712633,
+  "pct_change_5yr": 32.6,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 20056834,
+    "loss_ratio": 57.38
+   },
+   {
+    "year": 2011,
+    "dpw": 19748889,
+    "loss_ratio": 46.29
+   },
+   {
+    "year": 2012,
+    "dpw": 19268262,
+    "loss_ratio": 37.44
+   },
+   {
+    "year": 2013,
+    "dpw": 16906689,
+    "loss_ratio": 92.14
+   },
+   {
+    "year": 2014,
+    "dpw": 17312909,
+    "loss_ratio": 47.92
+   },
+   {
+    "year": 2015,
+    "dpw": 17003320,
+    "loss_ratio": 55.29
+   },
+   {
+    "year": 2016,
+    "dpw": 15209493,
+    "loss_ratio": 22.75
+   },
+   {
+    "year": 2017,
+    "dpw": 15305321,
+    "loss_ratio": 3.67
+   },
+   {
+    "year": 2018,
+    "dpw": 15806080,
+    "loss_ratio": 22.51
+   },
+   {
+    "year": 2019,
+    "dpw": 15712633,
+    "loss_ratio": 90.54
+   },
+   {
+    "year": 2020,
+    "dpw": 17872879,
+    "loss_ratio": 120.06
+   },
+   {
+    "year": 2021,
+    "dpw": 18275598,
+    "loss_ratio": 81.91
+   },
+   {
+    "year": 2022,
+    "dpw": 18311513,
+    "loss_ratio": 87.25
+   },
+   {
+    "year": 2023,
+    "dpw": 20059961,
+    "loss_ratio": 94.23
+   },
+   {
+    "year": 2024,
+    "dpw": 20842296,
+    "loss_ratio": 15.48
+   }
+  ]
+ },
+ "TN": {
+  "name": "Tennessee",
+  "code": "TN",
+  "fips": "47",
+  "cap_score": 0,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$750K cap (with carve-outs)",
+  "naic_dpw": 297804783,
+  "naic_loss_ratio": 60.42,
+  "naic_premium_per_physician": 16837,
+  "physicians": 17687,
+  "naic_2014_dpw": 234884517,
+  "pct_change_5yr": 26.8,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 260632329,
+    "loss_ratio": 18.55
+   },
+   {
+    "year": 2011,
+    "dpw": 231378431,
+    "loss_ratio": 56.17
+   },
+   {
+    "year": 2012,
+    "dpw": 233570974,
+    "loss_ratio": 102.23
+   },
+   {
+    "year": 2013,
+    "dpw": 239835945,
+    "loss_ratio": 75.09
+   },
+   {
+    "year": 2014,
+    "dpw": 234059381,
+    "loss_ratio": 60.22
+   },
+   {
+    "year": 2015,
+    "dpw": 233613983,
+    "loss_ratio": 80.48
+   },
+   {
+    "year": 2016,
+    "dpw": 208797874,
+    "loss_ratio": 84.68
+   },
+   {
+    "year": 2017,
+    "dpw": 214486866,
+    "loss_ratio": 67.87
+   },
+   {
+    "year": 2018,
+    "dpw": 196282942,
+    "loss_ratio": 83.5
+   },
+   {
+    "year": 2019,
+    "dpw": 234884517,
+    "loss_ratio": 94.1
+   },
+   {
+    "year": 2020,
+    "dpw": 244612540,
+    "loss_ratio": 92.33
+   },
+   {
+    "year": 2021,
+    "dpw": 251675699,
+    "loss_ratio": 58.21
+   },
+   {
+    "year": 2022,
+    "dpw": 263333637,
+    "loss_ratio": 86.7
+   },
+   {
+    "year": 2023,
+    "dpw": 272701050,
+    "loss_ratio": 63.67
+   },
+   {
+    "year": 2024,
+    "dpw": 297804783,
+    "loss_ratio": 60.42
+   }
+  ]
+ },
+ "TX": {
+  "name": "Texas",
+  "code": "TX",
+  "fips": "48",
+  "cap_score": 0,
+  "naic_score": 10,
+  "litig_score": 5,
+  "total_score": 15,
+  "rating": "green",
+  "cap_note": "$250K per-physician cap (Prop 12). Watch List",
+  "naic_dpw": 571313098,
+  "naic_loss_ratio": 44.19,
+  "naic_premium_per_physician": 8504,
+  "physicians": 67182,
+  "naic_2014_dpw": 343178518,
+  "pct_change_5yr": 66.5,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 345877069,
+    "loss_ratio": 20.28
+   },
+   {
+    "year": 2011,
+    "dpw": 344443434,
+    "loss_ratio": 30.36
+   },
+   {
+    "year": 2012,
+    "dpw": 324832317,
+    "loss_ratio": 39.65
+   },
+   {
+    "year": 2013,
+    "dpw": 314394359,
+    "loss_ratio": 30.51
+   },
+   {
+    "year": 2014,
+    "dpw": 306117254,
+    "loss_ratio": 35.94
+   },
+   {
+    "year": 2015,
+    "dpw": 296348808,
+    "loss_ratio": 49.5
+   },
+   {
+    "year": 2016,
+    "dpw": 305297589,
+    "loss_ratio": 41.55
+   },
+   {
+    "year": 2017,
+    "dpw": 314919812,
+    "loss_ratio": 24.32
+   },
+   {
+    "year": 2018,
+    "dpw": 340622174,
+    "loss_ratio": 68.97
+   },
+   {
+    "year": 2019,
+    "dpw": 343178518,
+    "loss_ratio": 73.41
+   },
+   {
+    "year": 2020,
+    "dpw": 397781231,
+    "loss_ratio": 53.9
+   },
+   {
+    "year": 2021,
+    "dpw": 454803497,
+    "loss_ratio": 52.01
+   },
+   {
+    "year": 2022,
+    "dpw": 506655894,
+    "loss_ratio": 52.56
+   },
+   {
+    "year": 2023,
+    "dpw": 551572840,
+    "loss_ratio": 51.31
+   },
+   {
+    "year": 2024,
+    "dpw": 571313098,
+    "loss_ratio": 44.19
+   }
+  ]
+ },
+ "UT": {
+  "name": "Utah",
+  "code": "UT",
+  "fips": "49",
+  "cap_score": 0,
+  "naic_score": 20,
+  "litig_score": 0,
+  "total_score": 20,
+  "rating": "green",
+  "cap_note": "$524K cap",
+  "naic_dpw": 94827491,
+  "naic_loss_ratio": 73.66,
+  "naic_premium_per_physician": 13174,
+  "physicians": 7198,
+  "naic_2014_dpw": 56617672,
+  "pct_change_5yr": 67.5,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 71016808,
+    "loss_ratio": 72.28
+   },
+   {
+    "year": 2011,
+    "dpw": 68813147,
+    "loss_ratio": 45.26
+   },
+   {
+    "year": 2012,
+    "dpw": 64046289,
+    "loss_ratio": 36.74
+   },
+   {
+    "year": 2013,
+    "dpw": 62187235,
+    "loss_ratio": 50.25
+   },
+   {
+    "year": 2014,
+    "dpw": 58208056,
+    "loss_ratio": 46.52
+   },
+   {
+    "year": 2015,
+    "dpw": 63051605,
+    "loss_ratio": 31.29
+   },
+   {
+    "year": 2016,
+    "dpw": 59308010,
+    "loss_ratio": 60.61
+   },
+   {
+    "year": 2017,
+    "dpw": 57611790,
+    "loss_ratio": 73.6
+   },
+   {
+    "year": 2018,
+    "dpw": 56922457,
+    "loss_ratio": 88.11
+   },
+   {
+    "year": 2019,
+    "dpw": 56617672,
+    "loss_ratio": 90.89
+   },
+   {
+    "year": 2020,
+    "dpw": 56527601,
+    "loss_ratio": 98.57
+   },
+   {
+    "year": 2021,
+    "dpw": 65974587,
+    "loss_ratio": 73.57
+   },
+   {
+    "year": 2022,
+    "dpw": 79530331,
+    "loss_ratio": 75.39
+   },
+   {
+    "year": 2023,
+    "dpw": 88136600,
+    "loss_ratio": 83.0
+   },
+   {
+    "year": 2024,
+    "dpw": 94827491,
+    "loss_ratio": 73.66
+   }
+  ]
+ },
+ "VA": {
+  "name": "Virginia",
+  "code": "VA",
+  "fips": "51",
+  "cap_score": 10,
+  "naic_score": 15,
+  "litig_score": 0,
+  "total_score": 25,
+  "rating": "green",
+  "cap_note": "$2.65M total cap (indexed)",
+  "naic_dpw": 255574504,
+  "naic_loss_ratio": 50.86,
+  "naic_premium_per_physician": 11173,
+  "physicians": 22874,
+  "naic_2014_dpw": 187172245,
+  "pct_change_5yr": 36.5,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 223588791,
+    "loss_ratio": 45.81
+   },
+   {
+    "year": 2011,
+    "dpw": 216568347,
+    "loss_ratio": 41.69
+   },
+   {
+    "year": 2012,
+    "dpw": 208587270,
+    "loss_ratio": 53.91
+   },
+   {
+    "year": 2013,
+    "dpw": 208281885,
+    "loss_ratio": 41.62
+   },
+   {
+    "year": 2014,
+    "dpw": 196735037,
+    "loss_ratio": 30.66
+   },
+   {
+    "year": 2015,
+    "dpw": 193275733,
+    "loss_ratio": 44.13
+   },
+   {
+    "year": 2016,
+    "dpw": 187711095,
+    "loss_ratio": 65.68
+   },
+   {
+    "year": 2017,
+    "dpw": 184847286,
+    "loss_ratio": 52.85
+   },
+   {
+    "year": 2018,
+    "dpw": 184207214,
+    "loss_ratio": 53.59
+   },
+   {
+    "year": 2019,
+    "dpw": 187172245,
+    "loss_ratio": 55.48
+   },
+   {
+    "year": 2020,
+    "dpw": 187861290,
+    "loss_ratio": 63.43
+   },
+   {
+    "year": 2021,
+    "dpw": 227474870,
+    "loss_ratio": 68.74
+   },
+   {
+    "year": 2022,
+    "dpw": 234346503,
+    "loss_ratio": 71.8
+   },
+   {
+    "year": 2023,
+    "dpw": 242532987,
+    "loss_ratio": 46.06
+   },
+   {
+    "year": 2024,
+    "dpw": 255574504,
+    "loss_ratio": 50.86
+   }
+  ]
+ },
+ "VT": {
+  "name": "Vermont",
+  "code": "VT",
+  "fips": "50",
+  "cap_score": 30,
+  "naic_score": 15,
+  "litig_score": 0,
+  "total_score": 45,
+  "rating": "yellow",
+  "cap_note": "No cap",
+  "naic_dpw": 24213760,
+  "naic_loss_ratio": 106.93,
+  "naic_premium_per_physician": 10047,
+  "physicians": 2410,
+  "naic_2014_dpw": 17035954,
+  "pct_change_5yr": 42.1,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 22263556,
+    "loss_ratio": 51.58
+   },
+   {
+    "year": 2011,
+    "dpw": 22097010,
+    "loss_ratio": 32.31
+   },
+   {
+    "year": 2012,
+    "dpw": 20681844,
+    "loss_ratio": 31.23
+   },
+   {
+    "year": 2013,
+    "dpw": 19164613,
+    "loss_ratio": 17.21
+   },
+   {
+    "year": 2014,
+    "dpw": 17376830,
+    "loss_ratio": 35.18
+   },
+   {
+    "year": 2015,
+    "dpw": 16305186,
+    "loss_ratio": 1.83
+   },
+   {
+    "year": 2016,
+    "dpw": 17077836,
+    "loss_ratio": 54.03
+   },
+   {
+    "year": 2017,
+    "dpw": 15704750,
+    "loss_ratio": 74.54
+   },
+   {
+    "year": 2018,
+    "dpw": 15068313,
+    "loss_ratio": 46.32
+   },
+   {
+    "year": 2019,
+    "dpw": 17035954,
+    "loss_ratio": 118.24
+   },
+   {
+    "year": 2020,
+    "dpw": 17781682,
+    "loss_ratio": 76.91
+   },
+   {
+    "year": 2021,
+    "dpw": 19895216,
+    "loss_ratio": 50.78
+   },
+   {
+    "year": 2022,
+    "dpw": 21143006,
+    "loss_ratio": 127.94
+   },
+   {
+    "year": 2023,
+    "dpw": 20138709,
+    "loss_ratio": 76.67
+   },
+   {
+    "year": 2024,
+    "dpw": 24213760,
+    "loss_ratio": 106.93
+   }
+  ]
+ },
+ "WA": {
+  "name": "Washington",
+  "code": "WA",
+  "fips": "53",
+  "cap_score": 35,
+  "naic_score": 15,
+  "litig_score": 10,
+  "total_score": 60,
+  "rating": "red",
+  "cap_note": "Cap struck (1989). King Co/WA SC ATRA #8",
+  "naic_dpw": 250201828,
+  "naic_loss_ratio": 63.97,
+  "naic_premium_per_physician": 11514,
+  "physicians": 21731,
+  "naic_2014_dpw": 191108410,
+  "pct_change_5yr": 30.9,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 205836362,
+    "loss_ratio": 47.61
+   },
+   {
+    "year": 2011,
+    "dpw": 203869400,
+    "loss_ratio": 56.74
+   },
+   {
+    "year": 2012,
+    "dpw": 201288240,
+    "loss_ratio": 57.16
+   },
+   {
+    "year": 2013,
+    "dpw": 188761322,
+    "loss_ratio": 65.31
+   },
+   {
+    "year": 2014,
+    "dpw": 176091879,
+    "loss_ratio": 91.41
+   },
+   {
+    "year": 2015,
+    "dpw": 160798607,
+    "loss_ratio": 65.47
+   },
+   {
+    "year": 2016,
+    "dpw": 156825982,
+    "loss_ratio": 64.4
+   },
+   {
+    "year": 2017,
+    "dpw": 163190371,
+    "loss_ratio": 92.97
+   },
+   {
+    "year": 2018,
+    "dpw": 161729173,
+    "loss_ratio": 71.28
+   },
+   {
+    "year": 2019,
+    "dpw": 191108410,
+    "loss_ratio": 106.82
+   },
+   {
+    "year": 2020,
+    "dpw": 186133691,
+    "loss_ratio": 85.22
+   },
+   {
+    "year": 2021,
+    "dpw": 210124943,
+    "loss_ratio": 66.23
+   },
+   {
+    "year": 2022,
+    "dpw": 232144028,
+    "loss_ratio": 78.88
+   },
+   {
+    "year": 2023,
+    "dpw": 241261599,
+    "loss_ratio": 83.11
+   },
+   {
+    "year": 2024,
+    "dpw": 250201828,
+    "loss_ratio": 63.97
+   }
+  ]
+ },
+ "WI": {
+  "name": "Wisconsin",
+  "code": "WI",
+  "fips": "55",
+  "cap_score": 10,
+  "naic_score": 5,
+  "litig_score": 0,
+  "total_score": 15,
+  "rating": "green",
+  "cap_note": "$750K cap (reinstated); PCF state",
+  "naic_dpw": 109767785,
+  "naic_loss_ratio": 58.33,
+  "naic_premium_per_physician": 6871,
+  "physicians": 15975,
+  "naic_2014_dpw": 75529072,
+  "pct_change_5yr": 45.3,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 97535615,
+    "loss_ratio": 48.4
+   },
+   {
+    "year": 2011,
+    "dpw": 88160202,
+    "loss_ratio": 12.39
+   },
+   {
+    "year": 2012,
+    "dpw": 86781133,
+    "loss_ratio": -18.62
+   },
+   {
+    "year": 2013,
+    "dpw": 84301475,
+    "loss_ratio": 19.93
+   },
+   {
+    "year": 2014,
+    "dpw": 79094967,
+    "loss_ratio": 16.1
+   },
+   {
+    "year": 2015,
+    "dpw": 78560753,
+    "loss_ratio": 14.97
+   },
+   {
+    "year": 2016,
+    "dpw": 76397760,
+    "loss_ratio": -15.35
+   },
+   {
+    "year": 2017,
+    "dpw": 83819627,
+    "loss_ratio": 14.41
+   },
+   {
+    "year": 2018,
+    "dpw": 75646302,
+    "loss_ratio": 27.98
+   },
+   {
+    "year": 2019,
+    "dpw": 75529072,
+    "loss_ratio": 76.25
+   },
+   {
+    "year": 2020,
+    "dpw": 81635885,
+    "loss_ratio": 62.77
+   },
+   {
+    "year": 2021,
+    "dpw": 79893357,
+    "loss_ratio": 16.66
+   },
+   {
+    "year": 2022,
+    "dpw": 86758710,
+    "loss_ratio": 69.11
+   },
+   {
+    "year": 2023,
+    "dpw": 98854141,
+    "loss_ratio": 64.8
+   },
+   {
+    "year": 2024,
+    "dpw": 109767785,
+    "loss_ratio": 58.33
+   }
+  ]
+ },
+ "WV": {
+  "name": "W. Virginia",
+  "code": "WV",
+  "fips": "54",
+  "cap_score": 10,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 35,
+  "rating": "yellow",
+  "cap_note": "$500K cap",
+  "naic_dpw": 80560866,
+  "naic_loss_ratio": 75.45,
+  "naic_premium_per_physician": 16394,
+  "physicians": 4914,
+  "naic_2014_dpw": 96595159,
+  "pct_change_5yr": -16.6,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 82544300,
+    "loss_ratio": 44.74
+   },
+   {
+    "year": 2011,
+    "dpw": 80427757,
+    "loss_ratio": 71.78
+   },
+   {
+    "year": 2012,
+    "dpw": 81043656,
+    "loss_ratio": 35.06
+   },
+   {
+    "year": 2013,
+    "dpw": 71885240,
+    "loss_ratio": 62.17
+   },
+   {
+    "year": 2014,
+    "dpw": 72231336,
+    "loss_ratio": 69.02
+   },
+   {
+    "year": 2015,
+    "dpw": 64305574,
+    "loss_ratio": 70.24
+   },
+   {
+    "year": 2016,
+    "dpw": 62839164,
+    "loss_ratio": 176.6
+   },
+   {
+    "year": 2017,
+    "dpw": 59231427,
+    "loss_ratio": 22.14
+   },
+   {
+    "year": 2018,
+    "dpw": 69780011,
+    "loss_ratio": 86.83
+   },
+   {
+    "year": 2019,
+    "dpw": 96595159,
+    "loss_ratio": 68.37
+   },
+   {
+    "year": 2020,
+    "dpw": 56863609,
+    "loss_ratio": 81.24
+   },
+   {
+    "year": 2021,
+    "dpw": 65207076,
+    "loss_ratio": 57.96
+   },
+   {
+    "year": 2022,
+    "dpw": 72153993,
+    "loss_ratio": 71.71
+   },
+   {
+    "year": 2023,
+    "dpw": 77813121,
+    "loss_ratio": 38.31
+   },
+   {
+    "year": 2024,
+    "dpw": 80560866,
+    "loss_ratio": 75.45
+   }
+  ]
+ },
+ "WY": {
+  "name": "Wyoming",
+  "code": "WY",
+  "fips": "56",
+  "cap_score": 20,
+  "naic_score": 25,
+  "litig_score": 0,
+  "total_score": 45,
+  "rating": "yellow",
+  "cap_note": "Pre-litigation review panel",
+  "naic_dpw": 24782740,
+  "naic_loss_ratio": 53.6,
+  "naic_premium_per_physician": 20231,
+  "physicians": 1225,
+  "naic_2014_dpw": 18920374,
+  "pct_change_5yr": 31.0,
+  "history": [
+   {
+    "year": 2010,
+    "dpw": 26609533,
+    "loss_ratio": 23.51
+   },
+   {
+    "year": 2011,
+    "dpw": 26386077,
+    "loss_ratio": 75.86
+   },
+   {
+    "year": 2012,
+    "dpw": 24878709,
+    "loss_ratio": 72.67
+   },
+   {
+    "year": 2013,
+    "dpw": 24303394,
+    "loss_ratio": 65.07
+   },
+   {
+    "year": 2014,
+    "dpw": 23562659,
+    "loss_ratio": 93.37
+   },
+   {
+    "year": 2015,
+    "dpw": 23866163,
+    "loss_ratio": 26.69
+   },
+   {
+    "year": 2016,
+    "dpw": 23766696,
+    "loss_ratio": 76.96
+   },
+   {
+    "year": 2017,
+    "dpw": 22619717,
+    "loss_ratio": 91.2
+   },
+   {
+    "year": 2018,
+    "dpw": 21862711,
+    "loss_ratio": 52.59
+   },
+   {
+    "year": 2019,
+    "dpw": 18920374,
+    "loss_ratio": 50.16
+   },
+   {
+    "year": 2020,
+    "dpw": 19741910,
+    "loss_ratio": 45.78
+   },
+   {
+    "year": 2021,
+    "dpw": 19780543,
+    "loss_ratio": 98.38
+   },
+   {
+    "year": 2022,
+    "dpw": 19841479,
+    "loss_ratio": 31.22
+   },
+   {
+    "year": 2023,
+    "dpw": 24145262,
+    "loss_ratio": 31.37
+   },
+   {
+    "year": 2024,
+    "dpw": 24782740,
+    "loss_ratio": 53.6
+   }
+  ]
+ }
+}
